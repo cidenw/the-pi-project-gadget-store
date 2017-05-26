@@ -1,0 +1,76 @@
+body{
+background-color: #e0dada;
+}
+
+ul[id=navbar-ul]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 0px;
+    position: relative;
+    top: -176px;
+    left: 500px;
+}
+
+li[id=navbar-li]{
+    float: left;
+    font-family: Novecento Normal;
+    font-size: 15px;
+}
+
+li a[id=navbar-a]{
+    display: block;
+    color: #131111;
+    text-align: center;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+li a[id=navbar-a]:hover {
+    background-color: transparent;
+    border: 1.25px solid #131111;
+}
+
+input[type=text]{
+  height: 20px;
+  width: 140px;
+  box-sizing: border-box;
+  border: 1.25px solid #131111;
+  border-radius: 20px;
+  font-family: Novecento Light;
+  font-size: 13px;
+  color: #131111;
+  background-color: transparent;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 13px 15px 12px 30px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: relative;
+  left: 900px;
+  top: -207px;
+}
+
+input[type=text]:focus {
+    width: 15%;
+}
+
+input[type=submit]{
+   background-color: transparent;
+   border: none;
+   color: #131111;
+   padding: 4px 23px;
+   font-family: Novecento Light;
+   font-size: 14px;
+   border: 1.25px solid #131111;
+   display: inline-block;
+   position: absolute;
+   left: 1130px;
+   top: 29px;
+}
+
+.slideshow{
+    z-index: -1;
+    position: absolute;
+  }

@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productList xmlns="http://www.example.org/prod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/prod prod.xsd ">
+	<product productID="1">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy On7</productName>
+		<price>5799.00</price>
+		<display>5.5</display>
+		<memory>1.5</memory>
+		<storage>8</storage>
+		<processor>1.2GHz Qualcomm Snapdragon 410</processor>
+		<camera>13</camera>
+		<battery>3000</battery>
+		<year>0</year>
+		<description>
+5.5-inch HD TFT display @ 720 x 1280 px, 267ppi
+1.2GHz Qualcomm Snapdragon 410 processor Adreno 306
+1.5GB RAM + 8GB ROM internal storage, Expandable via microSD, up to 256GB
+13MP f/2.1 AF rear camera with LED Flash
+5MP f/2.2 front camera
+4G LTE Cat.4, Dual SIM, Dual Standby
+Android 5.1.1 Lollipop
+3000mAh Li-ion battery
+</description>
+	</product>
+	<product productID="2">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone Zoom</productName>
+		<price>10999</price>
+		<display>5.5</display>
+		<memory>4</memory>
+		<storage>128</storage>
+		<processor>64-bit Intel Atom Z3590 Quad Core Processor</processor>
+		<camera>13</camera>
+		<battery>3000</battery>
+		<year>0</year>
+		<description>
+Operating System: Android™ 5.0(With ASUS ZenUI)
+Processor: 64-bit Intel Atom Z3590 Quad Core Processor (Running at 2.5GHz)
+Display: 5.5-inch, Full HD 1920x1080/403 PPI,295ppi IPS
+Internal Storage: 128GB eMCP Flash
+Micro SD: MicroSD card (up to 128 GB)
+Memory: 4GB LPDDR3 RAM
+Battery: 3000 mAh Li-Polymer (non-removable)
+SIM Cards: Micro-SIM
+Network Standard: Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot, Bluetooth v4.0
+Rear Camera: 13 Mega-Pixel
+Front Camera: 5 Mega-Pixel
+	</description>
+	</product>
+	<product productID="3">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>Lenovo IdeaPad 110-14IBR 14" Intel Celeron N3160 Quad Core 4GBBlack Windows 10  </productName>
+		<price>14490</price>
+		<display>14</display>
+		<memory>4</memory>
+		<storage>500</storage>
+		<processor>Intel Celeron N3160 </processor>
+		<camera>0.3</camera>
+		<battery>24</battery>
+		<year>2016</year>
+		<description>
+Operating System: Windows 10
+Processor: Intel Celeron N3160 Processor 1.6GHz (2M Cache, up to 2.24GHz)
+Quad Core
+Display: 14" HD
+Memory: 4GB DDR3
+HDD: 500GB
+SSD: n/a
+VGA: INTEGRATED
+ODD: Multi (tray in)
+Battery: 3CELL 24WH
+CAMERA 0.3M
+Wifi: AC WIFI
+		</description>
+	</product>
+	<product productID="4">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone Max </productName>
+		<price>6299</price>
+		<display>5.5</display>
+		<memory>2</memory>
+		<storage>32</storage>
+		<processor>Quad-core 1.2 GHz Cortex-A53</processor>
+		<camera>13</camera>
+		<battery>5000</battery>
+		<year>2016</year>
+		<description>
+Android OS, v5.0.1 (Lollipop), upgradable to v6.0.1 (Marshmallow)
+CPU Quad-core 1.2 GHz Cortex-A53
+Protection: Corning Gorilla Glass 4
+Touch: 10-finger capacitive Touch Screen with Anti-fingerprint technology
+RAM: 2G LPDDR3
+Storage: 32G EMMC
+Asus Web Storage: 5 GB storage lifetime for free
+Camera-Front: 5MP, f/2.0 Aperture, wide angle 85 degree Pano Selfie
+Camera-Rear:13 MP, f/2.0 Aperture, l5 elements lens, autofocus, dual-LED (dual tone) flash
+		</description>
+	</product>
+	<product productID="5">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy S8+ 6.2</productName>
+		<price>45990.0</price>
+		<display>6.2</display>
+		<memory>4.0</memory>
+		<storage>64.0</storage>
+		<processor>Qualcomm Snapdragon 835 processor</processor>
+		<camera>12</camera>
+		<battery>3500</battery>
+		<year>2017</year>
+		<description>
+6.2" Quad HD sAMOLED
+12MP OIS Dual Pixel (F.7) Main Camera
+8MP AF (F1.7) Front Camera
+4GB RAM + 64GB ROM expandable 
+IP68-rated water and dust resistant
+3,500mAh Battery
+Android Nougat 7.0
+LTE Hybrid Dual SIM
+Fingerprint Scanner
+Iris Scanner
+Always On Display
+Secure Folder
+USB Type-C
+		</description>
+	</product>
+	<product productID="6">
+		<type>phone</type>
+		<brand>Vivo</brand>
+		<productName>Vivo V5 </productName>
+		<price>12990</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Octa-core</processor>
+		<camera>13</camera>
+		<battery>3000</battery>
+		<year>2016</year>
+		<description>
+Android OS, v6.0 (Marshmallow)
+CPU:Octa-core
+32 GB, 3 GB RAM
+Camera:13 MP, f/2.2, autofocus, LED flash
+Front Facing camera:16 MP, f/2.0, 1080p
+		</description>
+	</product>
+	<product productID="7">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell XPS 13 8GB Intel Core i5-5200U 13.3" Ultrabook</productName>
+		<price>98740</price>
+		<display>13.3</display>
+		<memory>8</memory>
+		<storage>256</storage>
+		<processor> Intel Core i5-5200U 2.2GHz </processor>
+		<battery>3000 </battery>
+		<year>2015</year>
+		<description>
+Processor: Intel Core i5-5200U 2.2GHz Processor (3M Cache, up to 2.70GHz)
+Storage: 256GB Solid State Drive
+Memory: 8GB Dual Channel DDR3L-RS 1600Mhz (On Board)
+Graphics: Intel HD Graphics 5500
+Bluetooth: Bluetooth 4.0
+Display:	13.3-inch FHD (1920 x 1080) infinity display
+Battery: 52 WHr, 4-Cell Battery (integrated)OS: Windows 8.1
+Disclaimer: Promo period Sep 18 - 30
+Bluetooth Speaker may vary in color depending on availability
+</description>
+	</product>
+	<product productID="8">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy A7 (2017) Dual Sim (3GB, 32GB)</productName>
+		<price>26990</price>
+		<display>5.7</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Exynos 7880 Octa</processor>
+		<camera>16</camera>
+		<battery>3600</battery>
+		<year>2016</year>
+		<description>
+Android OS, v6.0.1 (Marshmallow)
+5.7 inches Super AMOLED capacitive touchscreen, 16M colors
+Exynos 7880 Octa
+32 GB, 3 GB RAM, microSD, up to 256 GB (dedicated slot)
+Dual SIM (Nano-SIM, dual stand-by)
+16 MP, f/1.9, 27mm, autofocus, LED flash
+Non-removable Li-Ion 3600 mAh battery
+       </description>
+	</product>
+	
+	<product productID="9">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy S6 G9200 Dual Sim (3GB, 32GB) </productName>
+		<price>19299</price>
+		<display>5.1</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>1.5GHz octa-core</processor>
+		<camera>16</camera>
+		<battery>2550</battery>
+		<year>2015</year>
+		<description>
+143.4 x 70.5 x 6.8 mm (5.65 x 2.78 x 0.27 in)
+138 g (4.87 oz)
+1440 x 2560 pixels (~577 ppi pixel density)
+Android OS, v5.0.2 (Lollipop)
+Quad-core 1.5 GHz Cortex-A53 &amp; Quad-core 2.1 GHz Cortex-A57
+32GB ROM, 3 GB RAM
+16 MP, 2988 x 5312 pixels, optical image stabilization, autofocus, LED flash
+		</description>
+	</product>
+	<product productID="10">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy J7 Prime 32GB </productName>
+		<price>12990</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Octa-Core 1.6GHz</processor>
+		<camera>13</camera>
+		<battery>3300</battery>
+		<year>2016</year>
+		<description>
+Display: 5.5” Main Display 1080 x 1920 (FHD)
+Processor: Octa-Core 1.6GHz
+Memory: 3GB (RAM) + 32GB (ROM)
+Expandable up to 256GB
+Camera: 13MP (F1.9) + 8MP (F1.9)
+OS: Android Marshmallow
+Battery: 3,300 mAh
+SIM Type: LTE Dual SIM Active (SIM 1 + SIM 2 + MicroSD), Nano-SIM (4FF)
+Fingerprint sensor for added security
+Ultra Data Saving (UDS)
+Ultra Power Saving Mode (UPSM)
+		</description>
+	</product>
+	<product productID="11">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy A5 2016</productName>
+		<price>15990</price>
+		<display>5.2</display>
+		<memory>2</memory>
+		<storage>16</storage>
+		<processor>Octa-core 1.6 GHz Cortex-A53</processor>
+		<camera>13</camera>
+		<battery>2900</battery>
+		<year>2015</year>
+		<description>
+G LTE
+5.2" FHD sAMOLED
+13MP (OIS) / 5MP
+		</description>
+	</product>
+	
+	<product productID="12">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy A5 (2017) Dual Sim (3GB, 32GB)</productName>
+		<price>23990</price>
+		<display>5.2</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Octa-core 1.9 GHz Cortex-A53</processor>
+		<camera>16</camera>
+		<battery>3000</battery>
+		<year>2016</year>
+		<description>
+Android OS, v6.0.1 (Marshmallow)
+5.2 inches Super AMOLED capacitive touchscreen, 16M colors
+Exynos 7880 Octa
+Octa-core 1.9 GHz Cortex-A53
+32 GB, 3 GB RAM, microSD, up to 256 GB (dedicated slot)
+Dual SIM (Nano-SIM, dual stand-by)
+16 MP, f/1.9, 27mm, autofocus, LED flash
+Non-removable Li-Ion 3000 mAh battery
+        </description>
+	</product>
+	
+	<product productID="13">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy A7(2016)</productName>
+		<price>17959</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>16</storage>
+		<processor>Qualcomm Snapdragon</processor>
+		<camera>13</camera>
+		<battery>3300</battery>
+		<year>2015</year>
+		<description>
+Released 2015, December
+172g, 7.3mm thickness
+Android 5.1.1, up to 6.0.1
+16GB storage, microSD card slot
+10% 15,011,192 hits
+363 Become a fan
+5.5"1080x1920 pixels
+13MP 1080p
+3GB RAM Snapdragon 615
+3300mAhLi-Ion
+     </description>
+	</product>
+	<product productID="14">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy J5 Prime</productName>
+		<price>9900</price>
+		<display>5</display>
+		<memory>2</memory>
+		<storage>16</storage>
+		<processor>Quad-Core 1.4GHz</processor>
+		<camera>13</camera>
+		<battery>2400</battery>
+		<year>2015</year>
+		<description>
+Display: 5.0” 720 x 1280 (HD
+Processor: Quad-Core 1.4GHz
+Memory: 2GB (RAM) +16GB (ROM)
+Expandable up to 256GB
+Camera: 13MP Rear + 5MP Front Selfie
+OS: Android Marshmallow
+Battery: 2,400 mAh
+SIM Type: LTE Dual SIM Active (SIM 1 + SIM 2 + MicroSD)
+Fingerprint sensor for added security
+Ultra Data Saving (UDS)
+Ultra Power Saving Mode (UPSM)
+		</description>
+	</product>
+	<product productID="15">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy S8</productName>
+		<price>39990</price>
+		<display>5.8</display>
+		<memory>4</memory>
+		<storage>64</storage>
+		<processor>Octa-core (4x2.3 GHz &amp; 4x1.7 GHz)</processor>
+		<camera>12</camera>
+		<battery>3000</battery>
+		<year>2017</year>
+		<description>
+5.8" Quad HD sAMOLED
+12MP OIS Dual Pixel (F.7) Main Camera
+8MP AF (F1.7) Front Camera
+4GB RAM + 64GB ROM expandable 
+3,000mAh Battery
+Android Nougat 7.0
+LTE Hybrid Dual SIM
+IP68-rated water and dust resistant
+Fingerprint Scanner
+Iris Scanner
+Always On Display
+Secure Folder
+USB Type-C
+		</description>
+	</product>
+	<product productID="16">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy Note 5 N920 (4GB, 32GB)</productName>
+		<price>27000</price>
+		<display>0.0</display>
+		<memory>4</memory>
+		<storage>32</storage>
+		<processor>Octa Core 2.1Ghz</processor>
+		<camera>16</camera>
+		<battery>3000</battery>
+		<year>2015</year>
+		<description>
+Screen Size: 5.7"
+Processor: Octa Core 2.1Ghz
+RAM: 4GB
+HDD/Internal Memory: 32GB
+Operating System: Android Lollipop 5.1
+Camera: 16MP
+Colour: White Pearl
+       </description>
+	</product>
+	<product productID="17">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy Note Edge 32GB</productName>
+		<price>39,099</price>
+		<display>5.6</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Quad-core 2.7 GHz Krait 450</processor>
+		<camera>16</camera>
+		<battery>3000</battery>
+		<year>2014</year>
+		<description>tns:description</description>
+	</product>
+	<product productID="18">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy S7 Edge G935 32GB</productName>
+		<price>32000</price>
+		<display>5.5</display>
+		<memory>4</memory>
+		<storage>32</storage>
+		<processor>Octa Core Processor (Quad 1.6GHz + Quad 2.3GHz)</processor>
+		<camera>12</camera>
+		<battery>1</battery>
+		<year>2016</year>
+		<description>
+Android Marshmallow 6.0
+5.5” QHD Super Amoled Display
+32GB Internal (expandable up to 200GB) + 4GB RAM
+Octa Core Processor (Quad 1.6GHz + Quad 2.3GHz)
+Dual Pixel 12MP + 5MP (Front)
+F1.7 Aperture
+3,600mAh with Ultra Power Saving Mode, Wireless Charging and Fast Charging
+LTE Dual SIM
+IP68 Water and Dust Resistant</description>
+	</product>
+	<product productID="19">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy S7 (4GB, 32GB)</productName>
+		<price>29999</price>
+		<display>5.1</display>
+		<memory>4</memory>
+		<storage>34</storage>
+		<processor>Octa-core (4x2.3 GHz Mongoose &amp; 4x1.6 GHz Cortex-A53)</processor>
+		<camera>12</camera>
+		<battery>3600</battery>
+		<year>2016</year>
+		<description>
+Android OS, v6.0 (Marshmallow)
+5.1 inches Super AMOLED capacitive touchscreen, 16M colors
+Exynos 8890 Octa
+Octa-core (4x2.3 GHz Mongoose &amp; 4x1.6 GHz Cortex-A53)
+32 GB, 4 GB RAM, microSD, up to 200 GB
+Dual Pixel 12MP Rear + 5MP Front Camera 
+HSDPA 850 / 900 / 1900 / 2100
+FDD-LTE Bands 1, 2, 3, 4, 5, 7, 8, 12, 20, 29, 30, 38, 39, 40, and 41
+        </description>
+	</product>
+	<product productID="20">
+		<type>phone</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Galaxy S6 Egde</productName>
+		<price>23299</price>
+		<display>5.1</display>
+		<memory>3/tns:memory></memory>
+		<storage>32</storage>
+		<processor>Octa-core (4x2.1 GHz Cortex-A57 &amp; 4x1.5 GHz Cortex-A53)</processor>
+		<camera>12</camera>
+		<battery>2600</battery>
+		<year>2015</year>
+		<description>
+Released 2015, April
+132g, 7mm thickness
+Android 5.0.2, up to 7.0
+32/64/128GB storage, no card slot
+16% 21,795,558 hits
+1545 Become a fan
+5.1"1440x2560 pixels
+16MP 2160p
+3GB RAM Exynos 7420 Octa
+2600mAhLi-Ion
+        </description>
+	</product>
+	<product productID="21">
+		<type>phone</type>
+		<brand>Apple Inc.</brand>
+		<productName>Apple iPhone 6S 64GB LTE</productName>
+		<price>34499</price>
+		<display>4.7</display>
+		<memory>2</memory>
+		<storage>64</storage>
+		<processor>Dual-core 1.84 GHz Twister</processor>
+		<camera>12</camera>
+		<battery>1715</battery>
+		<year>2015</year>
+		<description>
+4.7-inch (diagonal) LED-backlit widescreen
+1334-by-750-pixel resolution at 326 ppi
+A9 chip with 64-bit architecture
+4K video recording (3840 by 2160) at 30 fps
+Fingerprint sensor built into the Home button
+NOT ACCEPT CHANGE MIND RETURN
+        </description>
+	</product>
+	<product productID="22">
+		<type>phone</type>
+		<brand>Apple Inc.</brand>
+		<productName>Apple iPhone 6S Plus 128GB</productName>
+		<price>43190</price>
+		<display>5.5</display>
+		<memory>2</memory>
+		<storage>128</storage>
+		<processor>Dual-core 1.84 GHz Twister</processor>
+		<camera>12</camera>
+		<battery>2750</battery>
+		<year>2015</year>
+		<description>
+Brand New Original Apple Set
+5.5" Retina HD Display with 3D Touch
+Camera: 12MP Rear, 5MP Front
+Capacity: 128GB
+A9 chip with 64-bit
+iOS 9 with Touch ID and Apple Pay
+Fingerprint-res
+       </description>
+	</product>
+	<product productID="23">
+		<type>phone</type>
+		<brand>Apple Inc.</brand>
+		<productName>Apple iPhone 6 16GB</productName>
+		<price>30500</price>
+		<display>4.7</display>
+		<memory>1</memory>
+		<storage>16</storage>
+		<processor>Dual-core 1.4 GHz Cyclone</processor>
+		<camera>8</camera>
+		<battery>1810</battery>
+		<year>2014</year>
+		<description>
+iOS 8, upgradable to iOS 8.3
+4.7" LED-backlit IPS LCD, capacitive touchscreen.
+Dual-core 1.4 GHz Cyclone (ARM v8-based)
+16GB ROM
+8MP Rear Camera, 1.2MP Front Camera
+Wi-Fi 802.11 b/g/n, Bluetooth 4.0
+Nano-SIM
+        </description>
+	</product>
+	<product productID="24">
+		<type>phone</type>
+		<brand>Apple Inc.</brand>
+		<productName>Apple iPhone 7 32 GB Black</productName>
+		<price>35999</price>
+		<display>4.7</display>
+		<memory>2</memory>
+		<storage>32</storage>
+		<processor>Quad-core 2.34 GHz (2x Hurricane + 2x Zephyr)</processor>
+		<camera>12</camera>
+		<battery>1960</battery>
+		<year>2016</year>
+		<description>
+Display Size 4.7 inches
+Resolution: 1334 x 750 pixel
+Smartphone, iOS 10
+Network type: 2G, 3G, 4G (LTE)
+CPU: Quad-core
+Display Type: LED-backlit IPS LCD, capacitive touchscreen, 16M colors
+Internal: 32GB
+Primary Camera: 12 MP, f/1.8; Secondary Camera: 7 MP, f/2.2
+Water resistant
+Battery: Non-removable Li-Po 1960 mAh battery
+        </description>
+	</product>
+	<product productID="25">
+		<type>Apple Inc.</type>
+		<brand>Apple iPhone 7 Plus 2256GB Jet Black</brand>
+		<productName>tns:productName</productName>
+		<price>49999</price>
+		<display>5.5</display>
+		<memory>5</memory>
+		<storage>256</storage>
+		<processor>Quad-core 2.23 GHz</processor>
+		<camera>12</camera>
+		<battery>2900</battery>
+		<year>2016</year>
+		<description>
+Display Size 5.5 inches
+Resolution: 1080 x 1920 pixels
+Smartphone, iOS 10
+Network type: 2G, 3G, 4G (LTE)
+CPU: Quad-core 2.23 GHz
+Display Type: LED-backlit IPS LCD, capacitive touchscreen, 16M colors
+Internal: 256GB
+Primary Camera: Dual 12 MP; Secondary Camera: 7 MP
+Water resistant
+Battery: Non-removable Li-Po 2900 mAh battery
+       </description>
+	</product>
+	<product productID="26">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName> Asus Zenfone 3 Laser</productName>
+		<price>11995</price>
+		<display>5.5</display>
+		<memory>4</memory>
+		<storage>32</storage>
+		<processor>Octa-core</processor>
+		<camera>8</camera>
+		<battery>3000</battery>
+		<year>2016</year>
+		<description>
+Capture reality, dast and steady.
+0.03s laser AF
+52MP Super Resolution
+Sony Camera Sensor
+f/2.0 aperture
+EIS Videos
+		</description>
+	</product>
+	<product productID="27">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone Go</productName>
+		<price>6995</price>
+		<display>5.5</display>
+		<memory>2</memory>
+		<storage>32</storage>
+		<processor>Qualcomm Quadcore Snapdragon</processor>
+		<camera>8</camera>
+		<battery>3480</battery>
+		<year>2015</year>
+		<description>
+Android 5.1 (Lollipop) with ASUS ZenUI
+5.5-inch, HD 1280x720,TFT with Gorilla Glass 3
+Qualcomm Snapdragon 400 MSM8928 Qual Core 1.4GHz
+16 GB ROM, 2 RAM microSD card (up to 64 GB)
+Primary 13 MP, Secondary 5 MP
+Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot
+3010 mAh Lithium
+Dual Micro SIM card		
+		</description>
+	</product>
+	<product productID="28">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone Live</productName>
+		<price>6995</price>
+		<display>5</display>
+		<memory>2</memory>
+		<storage>16</storage>
+		<processor>Qualcomm Quad-core Snapdragon</processor>
+		<camera>13</camera>
+		<battery>2650</battery>
+		<year>2017</year>
+		<description>
+OS: Android™ 6.0
+CPU: Qualcomm® Quad-Core Processor Snapdragon™
+Display: 5-inch HD(1280 x 720) IPS display
+RAM: 2GB
+Storage: 16GB
+Camera-Front: 5 MP, f/2.2, 1.4 µm pixel size, autofocus, LED flash
+Camera-Rear: 13 MP, f/2.0, autofocus, LED flash
+Battery: 2650mAh (non-removable)
+Sim: Dual SIM card</description>
+	</product>
+	<product productID="29">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone 3 Max</productName>
+		<price>7979</price>
+		<display>5.2</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>1.5Gz Quad-core Media Tek</processor>
+		<camera>13</camera>
+		<battery>4100</battery>
+		<year>2016</year>
+		<description>
+1.5GHz Quad-core MediaTek MT6737T processor Mali-T720 MP2 GPU
+3GB of RAM
+5.2-inch HD IPS display, 2.5D glass, 1280 x 720 resolution
+32GB of expandable storage
+13-megapixel rear camera with LED flash, 5-megapixel front camera
+Dual SIM, 3G, LTE
+WiFi, Bluetooth, GPS, A-GPS, Fingerprint scanner
+Android Marshmallow 6.0, ZenUI 3.0
+4100mAh battery
+		</description>
+	</product>
+	<product productID="30">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone Go 5 Lite</productName>
+		<price>3499</price>
+		<display>5</display>
+		<memory>1</memory>
+		<storage>8</storage>
+		<processor>64-bit Qualcomm Quad-core Snapdragon</processor>
+		<camera>8</camera>
+		<battery>2600</battery>
+		<year>2015</year>
+		<description>
+Operating System: Android 5.1 with brand-new ASUS ZenUI 2.0
+Processor: 64-bit Qualcomm Quad-Core ProcessorSnapdragon 200
+Display: 5-inch FWVGA (854 x 480)
+Internal Storage: eMMC 8GB
+Micro SD: Micro SD Card up to128 GB
+Memory: RAM 1GB
+Battery: 2600mAh (removable)
+SIM Cards: Dual SIM card
+Network Standard: 2G, 3G
+Front Camera: 2MP Camera
+Rear: 8MP Camera, f/2.0 
+		</description>
+	</product>
+	<product productID="31">
+		<type>phone</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenfone Selfie</productName>
+		<price>13000</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>16</storage>
+		<processor>Octa-core Qualcomm Snapdragon</processor>
+		<camera>13</camera>
+		<battery>3000</battery>
+		<year>2015</year>
+		<description>
+RAM: 3GB RAM/ 16GB ROM
+Operating System: Android 5.0
+CPU Processor: Octa-Core, Qualcomm snapdragon 615 MSM8939
+Max. Expansion Supported: 128GB
+5.5 inches, 1920*1080 Screen Resolution
+13.0MP back camera / 13.0 MP front camera
+Battery Capacity: 3000 mAh
+features: Wi-Fi,GPS,FM,Bluetooth,NFC,OTG
+		</description>
+	</product>
+	<product productID="32">
+		<type>phone</type>
+		<brand>Huawei</brand>
+		<productName>Huawei GR3</productName>
+		<price>9990</price>
+		<display>5.2</display>
+		<memory>3</memory>
+		<storage>16</storage>
+		<processor>Octa-core</processor>
+		<camera>12</camera>
+		<battery>3000</battery>
+		<year>2017</year>
+		<description>
+OS : Android™ 7.0+EMUI 5.0
+Processor : Kirin 655, Octa-Core (4x2.1GHz+4x1.7GHz)
+Display : 5.2-inch FHD display
+Camera : 12MP Main &amp; 8MP Front Selfie
+Internal Storage : 3GB RAM Memory + 16GB ROM
+Battery: 3000mAh(typical value)
+Network: 4G, LTE
+Connectivity : Wifi, Bluetooth
+		</description>
+	</product>
+	<product productID="33">
+		<type>phone</type>
+		<brand>Huawei</brand>
+		<productName>Huawei GR5 2017</productName>
+		<price>13990</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Octa-core</processor>
+		<camera>12</camera>
+		<battery>3340</battery>
+		<year>2017</year>
+		<description>
+5.5-inch Full HD  display @ 1920 x 1080 resolution
+2.1GHz Kirin 655 octa-core processor
+3GB RAM
+32GB internal storage
+Expandable via microSD
+Dual rear cameras (12MP/2MP)
+8MP wide-angle front camera
+4G LTE
+Fingerprint scanner
+Android 6.0 Marshmallow with EMUI 4.1
+3340mAh battery
+		</description>
+	</product>
+	<product productID="34">
+		<type>phone</type>
+		<brand>Huawei</brand>
+		<productName>Huawei Y5 II</productName>
+		<price>5000</price>
+		<display>5</display>
+		<memory>1</memory>
+		<storage>8</storage>
+		<processor>Quadcore</processor>
+		<camera>8</camera>
+		<battery>2200</battery>
+		<year>2016</year>
+		<description>
+OS Android
+Dual Sim
+Removable Rechargeable Battery
+		</description>
+	</product>
+	<product productID="35">
+		<type>phone</type>
+		<brand>Huawei</brand>
+		<productName>Huawei Honor 6X</productName>
+		<price>21000</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Octa Core</processor>
+		<camera>14</camera>
+		<battery>3000</battery>
+		<year>2016</year>
+		<description>
+CPU：Kirin 655 Octa Core
+RAM：3GB, ROM：32GB
+Display：5.5 inch
+Resolution：1920 x 1080 pixels
+Back camera：12.0+2.0 MP
+Front camera：8.0 MP
+Bluetooth:Yes  
+		</description>
+	</product>
+	<product productID="36">
+		<type>phone</type>
+		<brand>Oppo F3 Plus</brand>
+		<productName>tns:productName</productName>
+		<price>23990</price>
+		<display>6</display>
+		<memory>4</memory>
+		<storage>64</storage>
+		<processor>Qualcomm Snapdragon Octacore</processor>
+		<camera>16</camera>
+		<battery>4000</battery>
+		<year>2016</year>
+		<description>
+6.0-inch FHD display, 1920 x 1080 resolution, Corning Gorilla Glass 5
+4GB RAM + 64GB expandable storage, up to 256GB via microSD
+Qualcomm Snapdragon 653 octa-core processor
+Rear Camera: 16MP
+Front Camera: Dual front cameras, 16-megapixel main sensor, 8-megapixel secondary sensor
+4G LTE, Dual SIM
+4000mAh battery
+Android 6.0 Marshmallow (ColorOS 3)
+		</description>
+	</product>
+	<product productID="37">
+		<type>phone</type>
+		<brand>Oppo</brand>
+		<productName>Oppo A37</productName>
+		<price>8990</price>
+		<display>5</display>
+		<memory>2</memory>
+		<storage>16</storage>
+		<processor> MSM 8916 Quad-core 1.2GHz</processor>
+		<camera>8</camera>
+		<battery>2630</battery>
+		<year>2016</year>
+		<description>
+OS : ColorOS 3.0, based on Android 5.1
+Processor : MSM 8916 Quad-core 1.2GHz
+GPU : Adreno 306
+Display : 5.0 inches
+Internal Storage : 16GB ROM + 2GB RAM Memory
+Camera : 8MP Rear + 5MP Front
+Battery Capacity : 2630 mAh (Non-removable)
+Network : 4G , LTE
+		</description>
+	</product>
+	<product productID="38">
+		<type>phone</type>
+		<brand>Oppo</brand>
+		<productName>Oppo F1S Rose Gold</productName>
+		<price>13999</price>
+		<display>5.5</display>
+		<memory>3</memory>
+		<storage>32</storage>
+		<processor>Octa-core MediaTek MT6750</processor>
+		<camera>13</camera>
+		<battery>3075</battery>
+		<year>2016</year>
+		<description>		
+Display: 5.50-inch
+Resolution: 720x1280 pixels
+OS: Android 5.1
+Processor: octa-core MediaTek MT6750
+RAM: 3GB, Storage: 32GB
+Front Camera: 16-megapixel
+Rear Camera: 13-megapixel
+Battery capacity: 3075mAh
+Dual nano SIM
+		</description>
+	</product>
+	<product productID="39">
+		<type>phone</type>
+		<brand>LG</brand>
+		<productName>LG K10 LTE</productName>
+		<price>10499</price>
+		<display>5.3</display>
+		<memory>2</memory>
+		<storage>16</storage>
+		<processor>Octa-core 1.2 GHz Cortex-A53</processor>
+		<camera>13</camera>
+		<battery>2300</battery>
+		<year>2016</year>
+		<description>
+Processor: Octa-core 1.2 GHz Cortex-A53
+OS: Android 6.0 Marshmallow
+Network: LTE, 2G, 3G, 4G
+Size: 5.3” HD
+Camera: Rear 13MP, Front 5MP
+2 GB RAM, 16GB ROM expandable with MicroSD up to 32GB
+Dual Sim
+WiFi, Bluetooth,GPS, NFC, Radio
+Removable Li-Ion 2300mAh battery
+		</description>
+	</product>
+	<product productID="40">
+		<type>phone</type>
+		<brand>LG</brand>
+		<productName>LG G6 Dual Sim</productName>
+		<price>39999</price>
+		<display>0.0</display>
+		<memory>4</memory>
+		<storage>64</storage>
+		<processor>Qualcomm MSM8996 Snapdragon 821</processor>
+		<camera>13</camera>
+		<battery>3300</battery>
+		<year>2017</year>
+		<description>
+5.7 inches IPS LCD capacitive touchscreen, 16M colors
+Android OS, v7.0 (Nougat)
+Corning Gorilla Glass 5 back panel
+Qualcomm MSM8996 Snapdragon 821
+Quad-core (2x2.35 GHz Kryo &amp; 2x1.6 GHz Kryo)
+64 GB, 4 GB RAM, microSD, up to 256 GB (uses SIM 2 slot)
+Dual 13 MP (f/1.8, OIS, 3-axis, phase detection AF) + 13 MP (f/2.4, no AF), dual-LED flash
+Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer
+		</description>
+	</product>
+	<product productID="41">
+		<type>phone</type>
+		<brand>LG</brand>
+		<productName>LG V20 H990 Dual Sim</productName>
+		<price>25499</price>
+		<display>5.7</display>
+		<memory>4</memory>
+		<storage>64</storage>
+		<processor>Qualcomm MSM8996 Snapdragon 820</processor>
+		<camera>16</camera>
+		<battery>3200</battery>
+		<year>2017</year>
+		<description>
+5.7 inches IPS LCD capacitive touchscreen, 16M colors
+64 GB, 4 GB RAM, microSD, up to 2TB
+Android OS, v7.0 (Nougat)
+Dual SIM (Nano-SIM, Dual Stand-By)
+Qualcomm MSM8996 Snapdragon 820
+Quad-core (2x2.15 GHz Kryo &amp; 2x1.6 GHz Kryo)
+Fingerprint, accelerometer, gyro, proximity, compass, color spectrum
+Dual 16 MP (29mm, f/1.8) + 8 MP (12mm, f/2.4), laser autofocus, OIS, LED flash
+		</description>
+	</product>
+	<product productID="42">
+		<type>accesories</type>
+		<brand>Pineng</brand>
+		<productName>Pineng PN-969 20000mah Powerbank (Black/Red)  </productName>
+		<price>1250</price>
+		<year>2016</year>
+		<description>
+For orders outside Luzon, please expect additional fifteen (15) daysﾠshipping due to airline safety restrictions
+Input: DC 5V 2A
+Output: 5V 1A , 5V 2.1A
+Capacity: 3.7V/20000mAh 74Wh
+Net Weight: 420g
+Size: 163*76*21mm
+Standby: >5000h
+		</description>
+	</product>
+	<product productID="43">
+		<type>accesories</type>
+		<brand>Romoss</brand>
+		<productName>Romoss Sense 6P 20,000mAh Durable Polymos Dual Output LED Display Power Bank (White) </productName>
+		<price>916.8</price>
+		<year>2017</year>
+		<description>
+Durable Lithium Polymer battery inside 
+Dual USB ports, you can charge phones, pads or other small electronic devices simultaneously,
+Press the power button, the hidden intelligent LCD digital power display on the surface of the power bank will show the remaining battery
+Electrical energy conversion rate is up to 90 percent, 
+Fast and safe charging, 10 intelligent security protection, 
+Aesthetic Smooth design, stylish and distinctive appearance
+		</description>
+	</product>
+	<product productID="44">
+		<type>accesories</type>
+		<brand>Pineng</brand>
+		<productName>Pineng PN-999 20000mAh Power Bank (White)</productName>
+		<price>0.0</price>
+		<year>2016</year>
+		<description>
+For orders outside Luzon, please expect additional fifteen (15) daysﾠshipping due to airline safety restrictions
+Input: DC 5V 2A
+Output: 5V 1A,5V 2.1A =59wh
+Built-in battery capacities: 3.7V/20000mAh 74wh
+Battery Type: Lithium Battery
+Charge retention: >5000hrs
+Cycle life of charging: 500 times (1 time = from 0% to 100%)
+Net Weight: 445g
+Size: 16.2cm x 		
+		</description>
+	</product>
+	<product productID="45">
+		<type>accesories</type>
+		<brand>Pineng</brand>
+		<productName>Pineng PN-920 20000mah Powerbank - (Black/Red)  </productName>
+		<price>1399</price>
+		<year>2016</year>
+		<description>		
+For orders outside Luzon, please expect additional fifteenﾠ(15) days shipping due to airline safety restrictions
+Capacity: 20000mAh
+Input Power: DC 5V 2A
+Output Power: DC 5V 1A/2.1A
+Compatibility: iPods, iPads, iPhones, Tablets and Smartphones
+For orders outside Luzon, please expect additional ten (10) days shipping due to air transport limitations
+</description>
+	</product>
+	<product productID="46">
+		<type>accesories</type>
+		<brand>ONDA</brand>
+		<productName>ONDA N200T 20000 mAh Triple Thin Portable External Battery Power Bank (Light Blue)</productName>
+		<price>1800</price>
+		<year>2015</year>
+		<description>
+Capacity: 20000mAh (76Wh)
+Volume: 197 x 95 x 14 mm
+Input: DC 5V 2.0AMax
+Output: DC 5V 1.0A 1pc. / 2.0A MAX 2 pcs.
+Rated Output capacity: 5V / 13000mAh (TYP 1A)
+		</description>
+	</product>
+	<product productID="47">
+		<type>accesories</type>
+		<brand>Xiaomi</brand>
+		<productName>Xiaomi Mi 20,000mAh Power Bank(white)</productName>
+		<price>1449</price>
+		<year>2016</year>
+		<description>
+Product model:-compatible with iPhones,Pad,MP3,micro chargable(samsung/htc/oppo etc)
+battery type: High quality lithium ion batteries
+Input voltage: 5.0 V DC
+Output voltage: 5.1 V DC
+Charging time:About 5.5 hours (with 5 v / 2 a charger, the standard cable) About 10 hours (5 v / 1 a charger, the standard cable)
+       </description>
+	</product>
+	<product productID="48">
+		<type>accesories</type>
+		<brand>Pineng</brand>
+		<productName>Pineng PN-983 10000mAh Lithium Polymer Power Bank (Blue) </productName>
+		<price>2900</price>
+		<year>2016</year>
+		<description>
+For orders outside Luzon, please expect additional fifteen (15) daysﾠshipping due to airline safety restrictions
+Input: DC 5V 2A
+Output: 5V 1A,5V 2.1A/31.5wh
+Built-in battery capacities: 3.7V/10000mAh 37wh
+Battery Type: Lithium Polymer
+Charge retention: 5000hrs
+Cycle life of charging: 500 times (1 time = from 0% to 100%)
+		</description>
+	</product>
+	<product productID="49">
+		<type>accesories</type>
+		<brand>Romoss</brand>
+		<productName>Romoss Sense 4P 10,400mAH Dual Output Display LED Power Bank ( White ) </productName>
+		<price>3699</price>
+		<year>2017</year>
+		<description>
+Original ROMOSS Sense 4P 10,400mAh high capacity mobile charger external battery power bank,
+Dual USB ports, you can charge phones, pads or other small electronic devices simultaneously, 
+Press the power button, the hidden intelligent LED digital power display on the surface of 
+the power bank will show the remaining battery, Electrical energy conversion rate is up to
+90 percent, Fast and safe charging, 10 intelligent security protection, stylish and distinctive
+ appearance.
+		</description>
+	</product>
+	<product productID="50">
+		<type>accesories</type>
+		<brand>B&amp;D</brand>
+		<productName>B&amp;D Ultra Slim 21800mAh Metal Powerbank</productName>
+		<price>2999</price>
+		<year>2015</year>
+		<description>
+For orders outside Luzon, please expect additional fifteen (15) daysﾠshipping due to airline safety restrictions
+Light weight and fashionable design
+Input: DC 5V 2.1A MAX
+Output USB 1: DC 5V 1A MAX
+Output USB 2: DC 5V 2.1A MAX
+High capacity: 21800 mAh
+Battery: Built-in Li-ion
+Four LED indicators show you the energy state of external battery and can be used as flashlight
+</description>
+	</product>
+	<product productID="51">
+		<type>accesories</type>
+		<brand>Samsung</brand>
+		<productName>Samsung Kettle Powerbank 10200mAh Blue</productName>
+		<price>1699</price>
+		<year>2015</year>
+		<description>
+Battery Capacity 10200 mAh
+Typical Capacity (Normal Charge) 6500
+Physical specification Cable Length 0.2 m
+Input Voltage (Max, Normal Charge) 5 V
+Input Current (Max, Normal Charge) 2 A
+Output Voltage (Max, Normal Charge) 5 V
+Output Current (Max, Normal Charge) 2.8 A
+		</description>
+	</product>
+	<product productID="52">
+		<type>accesories</type>
+		<brand>Wei Feng</brand>
+		<productName>40" Tripod Support Stand and Pocket for DSLR Compact Camera DV Canon Nikon </productName>
+		<price>358</price>
+		<year>2016</year>
+		<description>
+Type:Tripod
+Making your tripod perfectly level
+Easy to set up and store
+Built-in bubble level
+Brand: WEI FENG
+Model: WT-3110A
+Maximum Tripod Load: 2.5kg
+Meterial: 1/4 aluminum
+		</description>
+	</product>
+	<product productID="53">
+		<type>accesories</type>
+		<brand>Yunteng</brand>
+		<productName>Yunteng YT-228 Mini Tripod for Mobile Phones and Sports Cameras GoPro Hero, SJCAM, Yi, SooCoo, etc. (Black)</productName>
+		<price>199</price>
+		<year>2016</year>
+		<description>
+Hand grip and table tripod convertible
+Made of rigid plastic
+Durable for long-time usage
+Easy to adjust the angle you like with 360Ã‚Â° Swivel Head
+Anti-slip rubber pad at the bottom of each tripod leg
+Comes with a phone clip holder for mobile phone
+Screw Size: Universal 1/4"
+for SLR, Digital Camera, Mobile Phone, Sports Camera
+    </description>
+	</product>
+	<product productID="54">
+		<type>accesories</type>
+		<brand>JBL</brand>
+		<productName>JBL Go Portable Bluetooth Speaker (Black) </productName>
+		<price>1599</price>
+		<year>2016</year>
+		<description>
+Wireless Bluetooth streaming
+Built-in rechargeable Li-ion battery supports up to 5 hours of playtime
+Take calls from your speaker with a touch of a button - crystal clear thanks to the noise free speakerphone
+Simplicity of design in 8 vibrant colors
+Integrated carrying strap hook
+Don't worry if there's no Bluetooth, plug the audio cable into the speaker and enjoy your music all the same.
+		</description>
+	</product>
+	<product productID="55">
+		<type>accesories</type>
+		<brand>Velbon</brand>
+		<productName>Velbon CX-888 Aluminum Tripod (Black)</productName>
+		<price>1950</price>
+		<year>2017</year>
+		<description>
+High quality entry level aluminium tripod that is ideal for DSLR cameras and camcorders
+3-way pan head with sure-grip handle for easy control
+4 section legs with lever locks and radial braces for maximum stability
+Includes carry case
+		</description>
+	</product>
+	<product productID="56">
+		<type>accesories</type>
+		<brand>Canon</brand>
+		<productName>Canon AY001-Tripod for Sony Canon Nikon Olympus Camera </productName>
+		<price>1000</price>
+		<year>2015</year>
+		<description>
+Built-in bubble level. 360° horizontal and 90° vertical swivel with 3-way head. 
+3-sections aluminum legs. 
+Quick release leg lock. Non-slip rubber feet Grip for adjusting head position. 
+Quick release head for easy connecting to camera or camcorder. 
+		</description>
+	</product>
+	<product productID="57">
+		<type>accesories</type>
+		<brand>Benro</brand>
+		<productName>Benro KH25 VTP Tripod for Camcorder (Black)</productName>
+		<price>6498</price>
+		<year>2016</year>
+		<description>
+Type: Tripod
+Compatible with Sony DSR/Canon XL/Panasonic AG-DVC/Video Cameras with LANC / ACC interface
+Max. weight: 5kg
+LANC/ACC interface
+Material: Aluminum
+Two handles lock screw for right or left hand operation.
+Tilt stopper offers 180 degrees adjustment of shooting angle on vertical position
+		</description>
+	</product>
+	<product productID="58">
+		<type>accesories</type>
+		<brand>JBL</brand>
+		<productName>JBL T450 On-Ear Headphone (Black)</productName>
+		<price>659</price>
+		<year>2017</year>
+		<description>
+Plug: 3.5 mm
+Dynamic driver: 32mm
+Frequency response: 20Hz – 20kHz
+JBL Pure Bass sound
+1-button remote with microphone
+Lightweight and foldable design
+Tangle-free flat cable
+Plug: 3.5 mm
+Dynamic driver: 32mm
+Frequency response: 20Hz – 20kHz
+JBL Pure Bass sound
+1-button remote with microphone
+Lightweight and foldable design
+Tangle-free flat cable
+		</description>
+	</product>
+	<product productID="59">
+		<type>accesories</type>
+		<brand>JBL</brand>
+		<productName>JBL Xtreme Portable Bluetooth Speaker (Black) </productName>
+		<price>10999</price>
+		<battery>10000</battery>
+		<year>2016</year>
+		<description>
+Frequency Response: 70 Hz - 20 kHz
+Signal to Noise Ratio: >80dB
+Output Power: 40 W
+Driver: 2x 1.38" / 35 mm
+Music Streaming Time: 15 Hours
+Charge Time: 3.5 Hours
+Battery: Rechargeable Lithium-ion-polymer, 10000 mAh
+		</description>
+	</product>
+	<product productID="60">
+		<type>accesories</type>
+		<brand>Sony</brand>
+		<productName>Sony MDR-XB450AP 102dB Extra Bass Smartphone Headset (Black)</productName>
+		<price>358</price>
+		<year>2016</year>
+		<description>
+Driver unit 30mm
+Dome type: CCAW Voice Coil
+Power Handling capacity: 1,000mW(IEC)
+Impedence 24 at 1KHZ
+Sensitivity : 102dB/mW
+Frequency response: 5Hz-22,000Hz
+Cable Approx.1.2m
+		</description>
+	</product>
+		<product productID="61">
+		<type>accesories</type>
+		<brand>AESOPCOM</brand>
+		<productName>AESOPCOM Kinbas VP-X9 USB LED Gaming Keyboard and Mouse Combo (Multicolor) </productName>
+		<price>1999</price>
+		<year>2016</year>
+		<description>
+Color: Black MOUSE KEYBOARD
+3 LED color-Blue, red, green,PURPLE Backlight LED Lights for using at night time, looks amazing
+Interface Type: USB; Ergonomics: Support
+Fashion and contemporary bright-black design of outlook is perfectly for any working space.
+Color of Backlight: Blue &amp; Purple &amp; Red,GREEN
+Compatible with Win xp,Win vista,Win7 32,Win7 64,Win8 32,Win8 64 and MAC.
+		</description>
+	</product>
+		<product productID="62">
+		<type>accesories</type>
+		<brand>Zeus</brand>
+		<productName>Zeus M-710 Gaming Keyboard and Mouse Bundle</productName>
+		<price>1299</price>
+		<year>2017</year>
+		<description>
+Professional Mechanical Keyboard
+Rainbow LED Light Keyboard
+Special Material Made for Keycap
+Rational Artificial Science Design
+Plus Weight Keyboard Provide Stability
+Mouse is designed Based on Darth Vader(STARWARS)
+UV Paint Mouse
+Professional 6D Sensitivity Mouse
+Made With Braided Wire,Enhance Endurance
+Breathing LED Light while using it
+		</description>
+	</product>
+		<product productID="63">
+		<type>accesories</type>
+		<brand>Logitech</brand>
+		<productName>Logitech MK215 Wireless Keyboard and Mouse Bundle (Black)</productName>
+		<price>829</price>
+		<year>2016</year>
+		<description>
+Much smaller design, same keys
+Advanced 2.4GHz wireless
+128-bit AES encryption
+Fewer battery hassles
+		</description>
+	</product>
+	
+	<product productID="64">
+		<type>laptop</type>
+		<brand>Acer</brand>
+		<productName>Acer Aspire ES1-433-38DR</productName>
+		<price>20999</price>
+		<display>14</display>
+		<memory>4</memory>
+		<storage>500</storage>
+		<processor>Dual Core</processor>
+		<year>2015</year>
+		<description>
+SKU	AC593ELAA7GQ23ANPH-15294208
+Processor Type	Intel Core i3
+Display Size	14.0
+Hard Drive Capacity	500GB
+Model	PCX-ES1-433-38DR
+Processor Type	Dual-core
+Size (L x W x H cm)	34.3 x 34.5 x 2.36
+Weight (kg)	1.92
+System Memory	4GB
+Warranty period	1 Year
+Warranty type	Local Manufacturer Warranty
+	</description>
+	</product>
+	<product productID="65">
+		<type>laptop</type>
+		<brand>Acer</brand>
+		<productName>Acer Swift 5 SF514-51-77F1 Intel Core i7</productName>
+		<price>63199</price>
+		<display>14</display>
+		<memory>8</memory>
+		<storage>512</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+Operating System: Windows 10 Home
+Processor: Intel® Core™ i7-7500U Processor (4M Cache, up to 3.50 GHz)
+Memory: 8GB DDR3
+Storage: 512 GB SSD
+Display: 35.6 cm (14") Full HD (1920 x 1080) 16:9 IPS
+Graphics: Intel® HD Graphics 620
+Optical Drive: None
+	</description>
+	</product>
+	<product productID="66">
+		<type>laptop</type>
+		<brand>Acer</brand>
+		<productName>Acer Notebook E5-575G-7211 i7 Steel Gray</productName>
+		<price>49349</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>2000</storage>
+		<processor>ntel® CoreTM i7-7500U processor (4 MB L3 cache, 2.7 GHz with Turbo</processor>
+		<year>2016</year>
+		<description>
+Acer Notebook E5-575G-7211 Steel Gray
+Intel CoreTM i7-7500U Processor
+4 GB of DDR4 RAM
+2TB Storage
+15.6" Display
+NVIDIA GeForce 940MX with 2 GB
+8X DVD ODD
+Windows 10 OS
+1 Year Door-to-Door Warranty
+</description>
+	</product>
+	<product productID="67">
+		<type>laptop</type>
+		<brand>Acer</brand>
+		<productName>Acer e5-573T-59RC Intel I7</productName>
+		<price>52000</price>
+		<display>15.6</display>
+		<memory>2</memory>
+		<storage>1000</storage>
+		<processor>Dual Core</processor>
+		<year>2015</year>
+		<description>
+Intel Core i5-5200U processor Dual-core 2.20 GHz, up to 2.7GHz
+15.6" LED HD (1366 x 768) 16:9 Touchscreen Display
+8GB DDR3L SDRAM; 1TB HDD; Intel HD 5500 with Shared Memory
+Next wifi generation 802.11ac; 1x HDMI 1x USB 2.0 2x USB 3.0 1x VGA 1x Network (RJ-45)
+45W 2500 mAh 4-cell Lithium Ion (Li-Ion)</description>
+	</product>
+	<product productID="68">
+		<type>laptop</type>
+		<brand>Acer</brand>
+		<productName>Acer Notebook E5-575G-728J (Obsidian Black)</productName>
+		<price>49350</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>2000</storage>
+		<processor>Intel® CoreTM i7-7500U processor</processor>
+		<year>2016</year>
+		<description>
+Acer Notebook E5-575G-728J Obsidian Black
+Intel® CoreTM i7-7500U Processor
+8 GB of DDR4 RAM 
+2TB Storage 
+15.6" Display NVIDIA GeForce 940MX with 2 GB graphics memory
+8X DVD ODD
+Windows 10 OS 1 Year Warranty
+</description>
+	</product>
+	<product productID="69">
+		<type>laptop</type>
+		<brand>Acer</brand>
+		<productName>Acer Swift 7 SF713-51-M7ER Intel Core i5</productName>
+		<price>68450</price>
+		<display>13.3</display>
+		<memory>8</memory>
+		<storage>256</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+Operating System: Windows 10 Home
+Processor: Intel® Core™ i5-7Y54 Processor (4M Cache, up to 3.20 GHz)
+Memory: 8GB DDR3
+Storage: 256GB SSD
+Display: 13.3" Full HD (1920 x 1080) 16:9 IPS
+Graphics: Intel® HD Graphics 615
+Optical Drive: None
+</description>
+	</product>
+	<product productID="70">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>Lenovo Y5070 59443594 Core i7</productName>
+		<price>68995</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>1000</storage>
+		<processor>Quad Core</processor>
+		<year>2015</year>
+		<description>
+Operating System: Windows 8.1
+CPU (Type + Speed): Intel Core i7-4720HQ 2.6GHz Processor
+RAM and Hard Disk Drive (HDD): 8GB RAM and 1TB HDD
+Graphics: NVIDIA GeForce GTX860M 4GB
+Memory and expandability options: 1TB HDD
+Connectivity options: Wireless 802.11 b/g/n, 100/1000 LAN and Bluetooth
+Camera resolution (MP): HD Camera
+Battery type and charge (mAh): 4-Cell lithium-ion battery
+Optical drive (CD): DVD-Writer
+Power Consumption: 220V / 65W
+</description>
+	</product>
+	<product productID="71">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>Lenovo IdeaPad 310-15IKB Core i7</productName>
+		<price>43995</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>1000</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+SKU	LE611ELAABVKDWANPH-23552852
+AC Adapter	yes
+Processor Type	Intel Core i7
+Display Size	15.6
+Hard Drive Capacity	1TB
+Model	Lenovo IdeaPad 310-15IKB: 15.6 FHD Intel Core i7/8GB/1TB (Black)
+Processor Type	Dual-core
+System Memory	8GB
+Warranty period	1 Year
+</description>
+	</product>
+	<product productID="72">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>Lenovo 300-15 15.6" Intel Core i7</productName>
+		<price>41495</price>
+		<display>15.6</display>
+		<memory>2</memory>
+		<storage>1000</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+OS: Windows 10 SL
+CPU (Model + Speed): Intel® Core™ i7-6500U Processor (4M Cache, up to 3.10 GHz)
+RAM: 4GB DDR3
+Hard Disk Drive (HDD): 1TB SATA
+</description>
+	</product>
+	<product productID="73">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>Lenovo U31-70 80M50072PH Core i7</productName>
+		<price>59999</price>
+		<display>13.3</display>
+		<memory>4</memory>
+		<storage>256</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+OS: Windows 8.1
+CPU (Model + Speed): Intel Core i7-5500U Processor (4M Cache, up to 3.00 GHz)
+RAM: 4GB DDR3
+Hard Disk Drive (HDD): 256GB SSD
+Graphics: Intel HD Graphics
+Screen Size: 13.3" HD
+Connectivity options: 802.11b/g/n, Bluetooth, LAN
+</description>
+	</product>
+	<product productID="74">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>LENOVO B40-80 i5 5200U</productName>
+		<price>40495</price>
+		<display>14</display>
+		<memory>4</memory>
+		<storage>500</storage>
+		<processor>tns:processor</processor>
+		<year>2015</year>
+		<description>
+i5 5200U
+4GB RAM
+500GB Ram
+Windows 1 0
+Full HD Display 14"
+WIFI / Bluetooth 4.0
+Up to 16 GB Memory
+</description>
+	</product>
+	<product productID="75">
+		<type>laptop</type>
+		<brand>Lenovo</brand>
+		<productName>Lenovo G50-70 I5</productName>
+		<price>40000</price>
+		<display>15.6</display>
+		<memory>6</memory>
+		<storage>500</storage>
+		<processor>Not specified</processor>
+		<year>2014</year>
+		<description>
+4th gen Intel Core i5 4210OU
+6GB DDR3 RAM
+500 GB HDD
+15.6 hd 1368x766 display
+Windows 8
+</description>
+	</product>
+	<product productID="76">
+		<type>laptop</type>
+		<brand>Apple</brand>
+		<productName>Apple MacBook Air 13 MMGF2ZP/A Laptop (Silver)</productName>
+		<price>53990</price>
+		<display>13.3</display>
+		<memory>8</memory>
+		<storage>128</storage>
+		<processor>Dual Core</processor>
+		<year>2015</year>
+		<description>
+Apple MacBook Air 13 MMGF2ZP/A 13.3" Laptop/ Notebook
+Intel Core i5 Dual-core-1.6GHz
+8GB DDR3 RAM, 128GB Storage
+Intel HD Graphics 6000
+OS X El Capitan
+</description>
+	</product>
+	<product productID="77">
+		<type>laptop</type>
+		<brand>Apple</brand>
+		<productName>Apple Macbook Intel Core m3</productName>
+		<price>69990</price>
+		<display>12</display>
+		<memory>8</memory>
+		<storage>256</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+256GB PCIe-based onboard flash storage
+1.1GHz dual-core Intel Core m3 processor
+Turbo Boost up to 2.2GHz
+8GB memory
+Intel HD Graphics 515
+MLHA2PP/A 
+</description>
+	</product>
+	<product productID="78">
+		<type>laptop</type>
+		<brand>Apple</brand>
+		<productName>Apple MacBook Pro MLW82</productName>
+		<price>153999</price>
+		<display>15</display>
+		<memory>3</memory>
+		<storage>512</storage>
+		<processor>Quad Core</processor>
+		<year>2016</year>
+		<description>
+2.7GHz quad-core Intel Core i7 processor
+Turbo Boost up to 3.6GHz
+16GB 2133MHz memory
+512GB PCIe-based SSD
+Radeon Pro 455 with 2GB memory
+Four Thunderbolt 3 ports
+Touch Bar and Touch ID
+</description>
+	</product>
+	<product productID="79">
+		<type>laptop</type>
+		<brand>Apple</brand>
+		<productName>Macbook Air</productName>
+		<price>53990</price>
+		<display>15</display>
+		<memory>8</memory>
+		<storage>128</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+1.6 GHz dual-core Intel Core i5 (Turbo Boost up to 2.7 GHz) with 3 MB shared L3 cache
+8 GB of 1600 MHz LPDDR3 RAM; 128 GB PCIe-based flash storage
+13.3-Inch (diagonal) LED-backlit Glossy Widescreen Display, 1440 x 900 resolution
+Intel HD Graphics 6000
+OS X El Capitan, Up to 12 Hours of Battery Life
+Macbook Air does not have a Retina display on any model.
+</description>
+	</product>
+	<product productID="80">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>Asus ROG GL552VX(KBL)-DM406T Intel Core i7</productName>
+		<price>49999</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>1000</storage>
+		<processor>Quad Core</processor>
+		<year>2016</year>
+		<description>
+Processor: Intel Core i7-7700HQ 2.80GHz Processor (6M Cache, up to 3.80 GHz)
+Operating System: Windows 10 Home 
+Memory: 4GB DDR4,  2 x SO-DIMM socket , up to 32 GB SDRAM
+Display: 15.6" (16:9) LED backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC 
+Graphic: NVIDIA GTX950m with 2GB GDDR5 VRAM
+Storage: 1TB 5400RPM SATA HDD
+Optical Drive: Super-Multi DVD
+Keyboard: Illuminated Chiclet Keyboard
+WebCam: HD Web Camera
+Battery: 3200 mAh 48 Whrs Battery 
+</description>
+	</product>
+	<product productID="81">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>Asus ROG GL552VW Intel Skylake QUAD i7</productName>
+		<price>80000</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>1000</storage>
+		<processor>Quad Core</processor>
+		<year>2016</year>
+		<description>
+SKU	AS595ELAA5M3X9ANPH-11849788
+Display Size	15.6
+Hard Drive Capacity	1TB
+Model	Asus ROG GL552VW-CN320T
+Processor Type	Quad-core
+Warranty period	1 Year
+Warranty type	Local Supplier Warranty
+</description>
+	</product>
+	<product productID="82">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>Asus FX502VM-DM255T i7</productName>
+		<price>0.0</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>1128</storage>
+		<processor>Intel Core</processor>
+		<year>2016</year>
+		<description>
+ASUS Notebook F Series (Black)
+Intel Core  i7-7700HQ 8GB RAM 
+1TB HDD+128GB SSD Storage 
+15.6" Display NVIDIA Geforce GTX1060-3GB 
+Windows 10 OS  
+</description>
+	</product>
+	<product productID="83">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>Asus X541UV-XX143T Core i5-6198DU</productName>
+		<price>37999</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>500</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+Processor: Intel core i5-6198DU/BGA
+LCD: 15.6''HD SLIM GL
+GRAPHICS: 2GB VRAM
+GRAPHICS: NVIDIA GeForce GT 920M
+MEMORY: 4GB DDR3
+STORAGE: 500 GB HDD 
+OPTICAL DRIVE: DVD 8X S-M DL
+OS: Windows 10 Home
+CAMERA: HD Camera 
+</description>
+	</product>
+	<product productID="84">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>AsusPro Commercial NB P2530UJ Core i7</productName>
+		<price>52995</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>1000</storage>
+		<processor>Intel Core</processor>
+		<year>2015</year>
+		<description>
+ASUSPRO - ASUS Commercial NB (Black) P2530UJ
+Intel Core i7-6500U Processor
+8GB DDR4 RAM
+1TB HDD Storage
+DVDRW ODD
+NVIDIA Geforce 920M(2GB) Graphics
+15.6" FHD Display
+Win10 Pro OS
+2-2-0 Warranty
+</description>
+	</product>
+	<product productID="85">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>Asus Zenbook UX305UA</productName>
+		<price>65999</price>
+		<display>13.3</display>
+		<memory>8</memory>
+		<storage>512</storage>
+		<processor>Intel Core</processor>
+		<year>2016</year>
+		<description>
+Processor: Intel Core i5-6200U Processor 2.3GHz  (3M Cache, up to 2.80GHz)
+Operating System: Windows 10 Home
+Memory: 8GB LPDDR3 1600 MHz SDRAM, OnBoard Memory
+Display: 13.3-inch 16:9 IPS FHD (1920x1080)/IPS QHD+(3200 x 1800)
+Storage: 512GB SSD
+Card Reader: 2 -in-1 card reader ( SD/ SDXC)
+Camera: HD 720p CMOS module
+</description>
+	</product>
+	<product productID="86">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>Asus K555UB-XX177T</productName>
+		<price>42999</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>1000</storage>
+		<processor>Intel Core</processor>
+		<year>2015</year>
+		<description>
+PROCESSOR: Intel Core i7-6500U Processor 2.5GHz (4M Cache, up to 3.10GHz)
+MEMORY: 4GB DDR3
+STORAGE: 1TB HDD 5400rpm SATA
+DISPLAY: 15.6-inch 16:9 HD 1366x768 LED Backlit Display
+GRAPHICS: NVidia GeForce 940m 2GB GDDR3 VRAM
+OPTICAL DRIVE: 8x Super Multi DL DVDRW
+CONNECTIVITY: 802.11n WiFi + Bluetooth
+OPERATING SYSTEM: Windows 10
+</description>
+	</product>
+	<product productID="87">
+		<type>laptop</type>
+		<brand>Asus</brand>
+		<productName>ASUS Notebook X Series X556UQ-DM744T</productName>
+		<price>50400</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>2000</storage>
+		<processor>Intel Core</processor>
+		<year>2016</year>
+		<description>
+ASUS Notebook X Series X556UQ-DM744T
+Intel Core i7-7500U Processor 4GB RAM
+2TB Storage 
+FHD 15.6" Display NVIDIA GeForce 940MX ( N16S-GTR)
+2GB Super-Multi ODD 
+Windows 10 (64bit) OS		
+</description>
+	</product>
+	<product productID="88">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell Inspiron 5000 Gaming Laptop</productName>
+		<price>65000</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>10</storage>
+		<processor>Intel Core</processor>
+		<year>2017</year>
+		<description>
+Intel Core i7-5500U 2.4GHz (Turbo Boost up to 3GHz) Dual-Core BROADWELL
+8GB RAM, 1TB HDD, dual-band 802.11AC WiFi + Bluetooth 4.0
+Windows 8.1 64-bit OS, NVIDIA Geforce 920M 4GB discrete graphics, HDMI
+USB 3.0, 4-cell 40WHr removable battery
+</description>
+	</product>
+	<product productID="89">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell Inspiron 14 5459 Red Intel Skylake</productName>
+		<price>35000</price>
+		<display>14</display>
+		<memory>8</memory>
+		<storage>1000</storage>
+		<processor>Intel Skylake Core</processor>
+		<year>2016</year>
+		<description>
+Dell Inspiron 14 5459
+Genuine Windows 10 x64 (Recovery OS Intact)
+Intel Skylake Core i5-6200U Ultrabook Processor (2.3 - 2.80GHz)
+2GB Dedicated AMD Radeon R5 M335
+4GB Total Intel HD Graphics 520
+8GB DDR3 1600Mhz Memory (Upgradable)
+1,000GB HDD
+14" HD Display (1366x768)
+DVDRW: Yes
+Upto 5 Hours Battery Life
+</description>
+	</product>
+	<product productID="90">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell Inspiron 5567 Core i5</productName>
+		<price>37990</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>1000</storage>
+		<processor>Intel Core</processor>
+		<year>2016</year>
+		<description>
+SKU	DE599ELAA7K5YEANPH-15473112
+Display Size	15.6
+Hard Drive Capacity	1TB
+Model	IN5567
+Processor Type	Other
+Size (L x W x H cm)	39 x 25.9 x 2.3
+Warranty period	1 Year
+Warranty type	Local Supplier Warranty
+</description>
+	</product>
+	<product productID="91">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell XPS 15 Intel i7-770HQ 7th Gen</productName>
+		<price>92399</price>
+		<display>15.6</display>
+		<memory>8</memory>
+		<storage>256</storage>
+		<processor>Intel Core</processor>
+		<year>2017</year>
+		<description>
+SKU	DE599ELAABHFZYANPH-22887637
+Display Size	15.6
+Hard Drive Capacity	250GB
+Model	XPS 15
+Processor Type	Quad-core
+Size (L x W x H cm)	9.27 x 14.6 x .66
+Weight (kg)	4
+Warranty type	Lazada refund warranty only
+</description>
+	</product>
+	<product productID="92">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell Latitude 3379 2 in 1 Convertible</productName>
+		<price>54600</price>
+		<display>13.3</display>
+		<memory>8</memory>
+		<storage>256</storage>
+		<processor>Dual Core</processor>
+		<year>2016</year>
+		<description>
+Intel Core i3-6100U Processor
+8GB RAM
+256GB SATA Solid State Drive Storage
+Wireless / MoBro	Intel(R) Dual Band Wireless-AC 7265 2x2 + Bluetooth 4.0
+Win10Pro64 bit OS
+3 Years Prosupport: Next Business Day Onsite Service Warranty
+</description>
+	</product>
+	<product productID="93">
+		<type>laptop</type>
+		<brand>Dell</brand>
+		<productName>Dell Inspiron I5559-1349SLV</productName>
+		<price>46000</price>
+		<display>15.6</display>
+		<memory>4</memory>
+		<storage>1000</storage>
+		<processor>Intel Core</processor>
+		<year>2016</year>
+		<description>
+Operating System: Windows 10
+Processor: 6th generation Intel Core i5-6200U 2 cores, 2.3 GHz with Turbo Boost up to 2.8 GHz, 3 MB L3 cache
+Display: 15.6 inches
+Graphics Card: Intel HD Graphics 520
+Storage: 1TB 5400RPM HDD
+System Memory: 6GB DDR3L SDRAM Supports up to 16GB
+</description>
+	</product>
+	<product productID="94">
+		<type>accesories</type>
+		<brand>Razer</brand>
+		<productName>Razer Deathadder Elite Mechanical Gaming Mouse</productName>
+		<price>3999</price>
+		<year>2016</year>
+		<description>
+The world's most advanced optical sensor
+Gaming-optimized Razer™ Mechanical mouse switches
+Ergonomic shape perfected for esports athletes
+</description>
+	</product>
+	<product productID="95">
+		<type>accesories</type>
+		<brand>Razer</brand>
+		<productName>Razer Diamond Back Chroma Gaming Mouse </productName>
+		<price>5000</price>
+		<year>2015</year>
+		<description>
+Ambidextrous form factor
+16,000 DPI 5G laser sensor
+Up to 210 inches per second / 50 g acceleration
+1,000 Hz Ultrapolling
+On-The-Fly Sensitivity adjustment
+Chroma customizable lighting
+Inter-device color synchronization
+7 programmable Hyperesponse buttons
+</description>
+	</product>
+	<product productID="96">
+		<type>accesories</type>
+		<brand>ET</brand>
+		<productName>ET X-08 2000DPI Adjustable 2.4G Wireless Professional Gaming Mouse Mice</productName>
+		<price>1550</price>
+		<year>2015</year>
+		<description>
+Top level wireless gaming mouse solution
+2.4G two-way transmission distance can reach to 10 meters
+Low power indicator for alarm
+5 Adjustable CPI level 800/1200/1600/2000/2400,default as 1200 CPI
+Multi-stage power saving mode design
+		</description>
+	</product>
+	<product productID="97">
+		<type>accesories</type>
+		<brand>A4Tech</brand>
+		<productName>Bloody A90 Optic Micro Switch Gaming Mouse</productName>
+		<price>1550</price>
+		<year>2015</year>
+		<description>
+AVAGO Optical Engine Sensor
+Resolution: 4000cpi (5-level user adjustable)
+Images processing: 2.41 megapixels /sec
+Frame speed: 6666 fps, Acceleration: 20-23g
+Tracking speed :60-160 inches/sec (ips
+</description>
+	</product>
+	<product productID="98">
+		<type>accesories</type>
+		<brand>Logitech</brand>
+		<productName>Logitech G502 Proteus Spectrum RGB Tunable Gaming Mouse</productName>
+		<price>5500</price>
+		<year>2016</year>
+		<description>
+USB data format: 16 bits/axis
+USB report rate: 1000 Hz (1ms)
+Microprocessor: 32-bit ARM
+Resolution: 200 – 12,000 dpi
+Max. acceleration: >40G*
+Max. speed: >300 ips*
+Buttons (Left / Right): 20 million clicks		
+		</description>
+	</product>
+	<product productID="99">
+		<type>accesories</type>
+		<brand>Asus</brand>
+		<productName>Asus CERBERUS Gaming Mouse (Black)</productName>
+		<price>1880</price>
+		<year>2016</year>
+		<description>
+Four customizable DPI levels with an LED color indicator
+Designed for both right- and left-handed gamers
+Improved rubber side grips
+Connectivity Technology: Wired
+Tracking: Optical
+</description>
+	</product>
+	<product productID="100">
+		<type>accesories</type>
+		<brand>Logitech</brand>
+		<productName>Logitech M238 Party Collection Wireless Mouse (Flamingo</productName>
+		<price>1499</price>
+		<year>2016</year>
+		<description>
+Connection Type: Advanced 2.4 GHz wireless connectivity. Transmission link secured with 128-bit Advanced Encryption Standard (AES).
+Wireless range: 10 meters (33 feet)
+DPI (Min/Max): 1000±
+Sensor technology: Logitech Advanced Optical Tracking
+Number of buttons: 3
+Scroll Wheel: Yes, 2D, optical
+Standard and Special Buttons: Middle click
+Connection Interface: USB receiver		
+		</description>
+	</product>
+</productList>
