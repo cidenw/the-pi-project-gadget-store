@@ -1,0 +1,62 @@
+/** NAV BAR **/
+li {
+    float: left;
+    display: inline-block;
+}
+
+li a {
+    font-family: Ogonek Light;
+    font-size: 15;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #308489;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 35px;
+}
+
+.cart{
+  margin-top: -3px;
+}
+
+/**SEARCH BAR**/
+input[type=text] {
+  margin-top: 5px;
+  margin-left: 250px;
+    height: 18px;
+    width: 170px;
+    box-sizing: border-box;
+    border: 0.25px solid #131111;
+    border-radius: 20px;
+    font-family: Ogonek Light;
+    font-size: 15px;
+    color: #131111;
+    background-color: #FFF;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=submit]{
+  margin-top: 6px;
+  margin-left: 10px;
+   background-color: #3d9ba1;
+   border: none;
+   color: white;
+   padding: 2px 18px;
+   font-family: Ogonek Light;
+   font-size: 13px;
+   display: inline-block;
+}

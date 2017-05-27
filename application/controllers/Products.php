@@ -18,8 +18,8 @@
 
 		}
 
-		public function view($slug = NULL){
-			$data['product'] = $this->product_model->get_products($slug);
+		public function view($productID = NULL){
+			$data['product'] = $this->product_model->get_products($productID);
 			//$data['product'] = $this->product_model->get_products($slug);
 			//print_r($this->product_model->get_products(5));
 			//print_r($data['product']);
