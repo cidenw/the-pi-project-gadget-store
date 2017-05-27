@@ -4,4 +4,4 @@ echo "<br><br><br>";
 	
 
 ?>
-<a href="<?php echo base_url()."cart/"?>">Add to cart</a>
+<a href="<?php echo base_url()."cart/"?>">Shopping Cart</a>
