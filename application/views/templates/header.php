@@ -18,7 +18,10 @@
 					<li id="navbar-li"><a id="navbar-a" href="<?php echo base_url(); ?>about">About</a><li>
 					<li id="navbar-li"><a id="navbar-a" href="<?php echo base_url(); ?>products">Products</a><li>
 					<li id="navbar-li"><a id="navbar-a" href="<?php echo base_url(); ?>">Support</a><li>
+
+					
 				</ul>
+				<a href="<?php echo base_url()."cart/"?>">Shopping Cart (im in header)</a>
 			</div>
 
      <input type="text" name="search" placeholder="Search..">
