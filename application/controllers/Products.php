@@ -4,7 +4,14 @@
 			$data = array();
 			$data['title'] = 'Products';
 
-			$data['products'] = $this->product_model->get_products();
+			
+			if(isset($_GET['orderby'])){
+				$data['orderby'] = $_GET['orderby'];
+			}else{
+				$data['orderby'] = "";
+			}
+			$data['products'] = $this->product_model->get_products(NULL, $data['orderby']);
+			
 			$this->load->view('templates/header');
 			$this->load->view('products/index', $data);
 			$this->load->view('templates/footer');
@@ -27,4 +34,6 @@
 			$this->load->view('templates/footer');
 
 		}
+
+
 	}

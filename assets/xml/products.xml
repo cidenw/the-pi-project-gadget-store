@@ -563,8 +563,8 @@ Battery: Non-removable Li-Po 1960 mAh battery
 	</product>
 	<product productID="25">
 		<type>Apple Inc.</type>
-		<brand>Apple iPhone 7 Plus 2256GB Jet Black</brand>
-		<productName>tns:productName</productName>
+		<brand>Apple</brand>
+		<productName>Apple iPhone 7 Plus 2256GB Jet Black</productName>
 		<price>49999</price>
 		<display>5.5</display>
 		<memory>5</memory>
@@ -817,8 +817,8 @@ Bluetooth:Yes
 	</product>
 	<product productID="36">
 		<type>phone</type>
-		<brand>Oppo F3 Plus</brand>
-		<productName>tns:productName</productName>
+		<brand>Oppo</brand>
+		<productName>Oppo F3 Plus</productName>
 		<price>23990</price>
 		<display>6</display>
 		<memory>4</memory>
