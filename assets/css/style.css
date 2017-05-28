@@ -33,13 +33,13 @@ ul {
 
 /**SEARCH BAR**/
 input[type=text] {
-  margin-top: 5px;
-  margin-left: 250px;
+    margin-top: 5px;
+    margin-left: 500px;
     height: 18px;
-    width: 170px;
+    width: 230px;
     box-sizing: border-box;
-    border: 0.25px solid #131111;
-    border-radius: 20px;
+    border: 0.10px solid #333;
+    border-radius: 10px;
     font-family: Ogonek Light;
     font-size: 15px;
     color: #131111;
@@ -49,6 +49,7 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
 }
 
+/** find button **/
 input[type=submit]{
   margin-top: 6px;
   margin-left: 10px;

@@ -2,8 +2,8 @@
 <style>
 /** MENU ICON **/
 #nav-icon {
-  position: relative;
-  margin-left:  1015px;
+  position: absolute;
+  margin-left:  1300px;
   margin-top: -40px;
   width: 30px;
   height: 35px;
@@ -135,11 +135,21 @@ z-index: -1;
 }
 
 /** SEARCH ICON **/
+.search{
+  position: absolute;
+  margin-left: 880px;
+  margin-top: 16px;
+  width: 5.5%;
+}
 
+/** LOGO **/
+.logo{
+  height: 10%;
+}
 
 </style>
-<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo1.png" name="logo" height="11%"></a>
-<a href="<?php echo base_url(); ?>products"><img class="search" src="<?php echo base_url(); ?>assets/images/search.png" style="width:7%; margin-top: -45px ;margin-left: 955px;"></a>
+<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo3.png" class="logo"></a>
+<a href="<?php echo base_url(); ?>products"><img class="search" src="<?php echo base_url(); ?>assets/images/search.png"></a>
    <div id="nav-icon">
       <span></span>
       <span></span>
@@ -160,7 +170,6 @@ z-index: -1;
  <div class="w3-content w3-section" style="max-width:500px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/1.gif" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/2.png" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/3.jpg" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/c.jpg" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/d.jpg" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/e.jpg" style="width:100%; max-height:720px">
@@ -170,7 +179,6 @@ z-index: -1;
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/i.jpg" style="width:100%; max-height:720px">
 
    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
