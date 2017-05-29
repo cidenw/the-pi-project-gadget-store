@@ -2,9 +2,9 @@
 <style>
 /** MENU ICON **/
 #nav-icon {
-  position: absolute;
-  margin-left:  1300px;
-  margin-top: -40px;
+  position: fixed;
+  right: 15px;
+  top: 20px;
   width: 30px;
   height: 35px;
   z-index: 10;
@@ -136,15 +136,15 @@ z-index: -1;
 
 /** SEARCH ICON **/
 .search{
-  position: absolute;
-  margin-left: 880px;
-  margin-top: 16px;
-  width: 5.5%;
+  position: fixed;
+  right: 25px;
+  top: 15px;
+  width: 75px;
 }
 
 /** LOGO **/
 .logo{
-  height: 10%;
+  height: 70px;
 }
 
 </style>
