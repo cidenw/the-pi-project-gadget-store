@@ -36,16 +36,25 @@
 				$cart = array();
 			}
 			array_push($cart, (String)$data['product']['productID']);
+			$cart = array_count_values($cart);
 			$this->session->set_userdata('cart', $cart);	
 			$this->load->view('templates/header');
 			$this->load->view('cart/view',$data);
 			$this->load->view('templates/footer');
 		}
 
-		public function view_sort($parameters){
+		public function update(){
+			$data = array();
+			$data['title'] = 'Shopping Cart';
+			$data['products'] = $this->product_model->get_products();
 			
+			$this->load->library('session');
+			$data['cart'] = $this->session->userdata('cart');
+			if(empty($data['cart'])){
+				$data['cart'] = array();
+			}
+			$this->load->view('cart/update',$data);
 		}
-
 		public function checkout(){
 			/*
 			$data = array();

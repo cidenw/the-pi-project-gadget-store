@@ -1,7 +1,6 @@
-<?php print_r($product->productName); 
+<?php echo "You added " .$product->productName. " to your cart."; 
 echo "<br><br><br>";
 
 ?>
-
-<p>Succesfully added </p>
+]
 <a href="<?php echo base_url()."cart/"?>">Shopping Cart</a>
