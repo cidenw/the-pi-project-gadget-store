@@ -2,10 +2,10 @@
 	<head>
 		<title>The Pi Project</title>
 		<link href='<?php echo base_url(); ?>assets/css/style.css' rel='stylesheet'>
+
+
 	</head>
 	<body>
-
-
 <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo4.png" id="logo" height="13%"></a>
 <br>
 <div class="navbar">
@@ -14,8 +14,8 @@
   <li><a href="<?php echo base_url(); ?>about">About</a></li>
   <li><a href="<?php echo base_url(); ?>products">Products</a></li>
   <li><a href="<?php echo base_url(); ?>support">Support</a></li>
-  <li><input type="text" name="search" placeholder="Search.."></li>
-  <li><input type="submit" value="Find"></li>
+  <li><input type="text" name="search" placeholder="Search.." id="searchbar"></li>
+  <li><input type="submit" value="Find" onclick=" window.location = '<?=base_url()?>products?search=' + document.getElementById('searchbar').value"></li>
   <li style="float:right"><a href="<?php echo base_url(); ?>cart"><img class="cart" src="<?php echo base_url(); ?>assets/images/cart.png" height="32px"></a></li>
 	<nav class = "navbar navbar-inverse">
 		<div class = "container"> <!--

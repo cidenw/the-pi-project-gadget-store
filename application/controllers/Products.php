@@ -10,7 +10,14 @@
 			}else{
 				$data['orderby'] = "";
 			}
-			$data['products'] = $this->product_model->get_products(NULL, $data['orderby']);
+			if(isset($_GET['search'])){
+				$data['search'] = $_GET['search'];
+				$data['products'] = $this->product_model->get_products(NULL, $data['orderby'], $data['search']);
+			}else{
+				$data['products'] = $this->product_model->get_products(NULL, $data['orderby']);
+			}
+			
+
 			
 			$this->load->view('templates/header');
 			$this->load->view('products/index', $data);

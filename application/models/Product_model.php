@@ -1,17 +1,26 @@
 <?php
 	class Product_model extends CI_Model{
-	
-
-		
-		
-	
-		public function get_products($productID = NULL, $orderby = NULL){
-			
+		public function get_products($productID = NULL, $orderby = NULL, $search = NULL){
 			$xml=simplexml_load_file(base_url()."assets/xml/products.xml");
 			if($productID == NULL){
 				$products = $xml->children();
 				if($orderby == NULL){
-					return $products;
+					if($search != NULL){	
+						$sortable = array();
+						 foreach($xml->children() as $node) {
+						    $sortable[] = $node;
+						 }
+						$searchQuery = array();
+						foreach($sortable as $product=>$data){
+							if(strpos(strtolower($data->productName), strtolower($search)) !== false){
+								$searchQuery[] = $data;
+							}
+						}
+						return $searchQuery;
+					}else{
+						return $products;
+					}
+					
 				}else{
 					 $sortable = array();
 					 foreach($xml->children() as $node) {
@@ -53,9 +62,18 @@
 					if($orderby == "category"){
 						usort($sortable, __NAMESPACE__ . '\compare_category');
 					}
-
-
-					return $sortable;
+					if($search != NULL){	
+						$searchQuery = array();
+						foreach($sortable as $product=>$data){
+							if(strpos(strtolower($data->productName), strtolower($search)) !== false){
+								$searchQuery[] = $data;
+							}
+						}
+						return $searchQuery;
+					}else{
+						return $sortable;
+					}
+					
 					
 				}
 				
