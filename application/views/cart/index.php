@@ -39,7 +39,3 @@
 
 
 </div>
-
-<a href="<?php echo base_url()."cart/checkout"?>">Checkout</a>
-
-<button type="button" onclick="clear_cart()">Clear cart</button>

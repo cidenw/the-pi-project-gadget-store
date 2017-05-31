@@ -7,35 +7,36 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 ?>
 <div id="display_cart">
 
-	<script type="text/javascript">
-		display_cart();
-		function display_cart(){
-			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("GET","<?=base_url()?>cart/update",false);
-			xmlhttp.send(null);
-			document.getElementById("display_cart").innerHTML=xmlhttp.responseText;
-		}
 
-		function update_cart(index, quantity){
-			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("GET", "<?=base_url()?>cart/update?id="+index+"&quantity="+quantity,false);
-			xmlhttp.send(null);
-			display_cart();
-		}
-		function remove_item(index){
-			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("GET", "<?=base_url()?>cart/update?id="+index,false);
-			xmlhttp.send(null);
-			display_cart();
-		}
-
-	</script>
 </div>
+<?=$title?> <br> 
+<table border="1">
+	<tr><th>Product Name</th><th>Unit Price</th><th>Quantity</th><th>Price</th>		</tr>
 
+	<?php
+	$total = 0;
+	foreach($cart as $productID=>$productQuantity){
+		echo "<tr>";
+		$currentProduct = $this->product_model->get_products($productID);
+		echo "<td>".$currentProduct->productName."</td>";
+		echo "<td>".number_format((float)$currentProduct->price)."</td>";
+		?>
+		<td><?=$productQuantity?></td>
+		<?php
+
+		$price = $productQuantity*$currentProduct->price;
+		echo "<td>".number_format($price)."</td>";
+		?></tr>
+		<?php
+		$total+= $price;
+	}
+	?>
+	<tr><td><td><td>total</td><td><?php echo number_format($total)?></td></td></td></tr>
+</table>
 <div class = "container">
 	<table class = "table table-bordered">
 		<tbody>
-			<form action="" method="post" enctype="multipart/form-data">
+			<form action="<?=base_url().'cart/confirm_order'?>" method="post" enctype="multipart/form-data">
 				<tr>
 					<td> First Name </td>
 					<td> <input type="text" name="firstName" class="form-control flat" required /> </td>
@@ -59,7 +60,7 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 				<tr>
 					<td> City </td>
 					<td> 
-						<select name = "city" value="Select one">
+						<select name = "city" required>
 						<?php
 							foreach($philippine_cities as $city){
 								echo "<option value='".$city."'>".$city."</option>";
@@ -72,7 +73,7 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 				<tr>
 					<td> Region </td>
 					<td>
-						<select value="region">
+						<select name="region" required>
 						<?php
 							foreach($provinces as $province){
 								echo "<option value='".$province."'>".$province."</option>";
@@ -87,3 +88,5 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 		</tbody>
 	</table>
 </div>
+
+	

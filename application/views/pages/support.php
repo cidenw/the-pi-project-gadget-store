@@ -125,7 +125,18 @@ p,h1,h2,h3{
     font-family: 'Raleway';
 }
 </style>
+<?php
+if(isset($_GET['sent'])){
+  if($_GET['sent']=="true"){
+    ?>
+    <script>
+        alert("Message sent.");
+    </script>
 
+    <?php
+  }
+}
+?>
 <center>
 
 <br><br>
@@ -213,12 +224,14 @@ p,h1,h2,h3{
   <h1 style="font-size: 30px; color: #308489">
   Email us your concerns or schedule a service!</h1>
 
-  <form action="/action_page.php">
+  <form action="<?=base_url().'support/sendEmail'?>" method="post">
   <h3> First name: </h3>
   <input id="formbar" type="text" name="firstname" value="Mickey">
   <br>
   <h3>Last name: </h3> 
   <input id="formbar" type="text" name="lastname" value="Mouse">
+  <h3>Email: </h3> 
+  <input id="formbar" type="email" name="email" value="Email">
   <br><br>
   <textarea name="message" id="form-message" rows="8" cols="40">
    Write here...

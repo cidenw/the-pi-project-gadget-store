@@ -32,6 +32,7 @@
 	</div>
 
 	<p>
+		
 		<a href="<?php echo base_url()."cart/add/".$product['productID']?>" class="btn btn-info btn-lg">
 			<span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
 		</a>
@@ -43,10 +44,13 @@
 if(isset($added)){
 	echo "You added " .$product->productName. " to your cart."; 
 	echo "<br><br><br>";
-
+	?>
+	<a href="<?php echo base_url()."products"?>" class="btn btn-info btn-lg">
+			<span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
+		</a><br>
+	<?php
 	
 	
 }
 
 ?>
-<a href="<?php echo base_url()."cart/"?>">Shopping Cart</a>

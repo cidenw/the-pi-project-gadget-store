@@ -1,15 +1,24 @@
+<?php
+if(empty($cart)){
+	echo "Your cart is empty";
+	?>
+	<br>
+	<a href="<?=base_url().'products'?>">Continue Shopping</a>
+	<?php
+	return;
+}
+?>
+
 
 Your cart <br> 
 <table border="1">
-	<tr><th>Product Name</th><th>Unit Price</th><th>Quantities</th><th>Price</th><th></th></tr>
+	<tr><th>Product Name</th><th>Unit Price</th><th>Quantity</th><th>Price</th><th></th></tr>
 
 	<?php
-	print_r($this->session->userdata('cart'));
 	$total = 0;
 	foreach($cart as $productID=>$productQuantity){
 		echo "<tr>";
 		$currentProduct = $this->product_model->get_products($productID);
-		print_r($productID);
 		echo "<td>".$currentProduct->productName."</td>";
 		echo "<td>".number_format((float)$currentProduct->price)."</td>";
 		?>
@@ -28,9 +37,16 @@ Your cart <br>
 </table>
 
 
-</table>
+
 
 <?php
+if(!empty($cart)){
+	?>
+	<a href="<?php echo base_url()."cart/checkout"?>">Checkout</a>
+
+	<button type="button" onclick="clear_cart()">Clear cart</button>
+	<?php
+}
 if(isset($_GET['id'])){
 	$productID = $_GET['id'];
 	if(isset($_GET['quantity'])){
