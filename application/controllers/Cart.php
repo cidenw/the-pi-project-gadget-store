@@ -17,7 +17,7 @@
 
 		}
 
-		public function view($productID = NULL){
+		public function add($productID = NULL){
 			if($productID == NULL){
 				show_404();
 			}
@@ -29,7 +29,6 @@
 			$data['product'] = $this->product_model->get_products($productID);
 			$data['title'] = $data['product']['productName'];
 
-
 			$this->load->library('session');
 			$cart = $this->session->userdata('cart');
 			if(empty($cart)){
@@ -37,9 +36,10 @@
 			}
 			array_push($cart, (String)$data['product']['productID']);
 			$cart = array_count_values($cart);
-			$this->session->set_userdata('cart', $cart);	
+			$data['added'] = true;
+			$this->session->set_userdata('cart', $cart);
 			$this->load->view('templates/header');
-			$this->load->view('cart/view',$data);
+			$this->load->view('products/view', $data);
 			$this->load->view('templates/footer');
 		}
 
@@ -56,7 +56,8 @@
 			$this->load->view('cart/update',$data);
 		}
 		public function checkout(){
-			/*
+
+			
 			$data = array();
 			$data['title'] = 'Checkout';
 			$data['products'] = $this->product_model->get_products();
@@ -65,9 +66,9 @@
 			$data['cart'] = $this->session->userdata('cart');
 			
 			$this->load->view('templates/header');
-			$this->load->view('cart/index', $data);
+			$this->load->view('cart/checkout', $data);
 			$this->load->view('templates/footer');
-			*/
+			
 		}
 	}
 ?>
