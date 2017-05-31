@@ -8,15 +8,64 @@
 			<tr>
 				<td>Name</td><td><?=$product->productName?></td>
 			</tr>
-			<tr>
-				<td>Display</td><td><?=$product->display." inch"?></td>
-			</tr>
-			<tr>
-				<td>Storage</td><td><?=$product->storage."GB"?></td>
-			</tr>
-			<tr>
-				<td>Processor</td><td><?=$product->processor?></td>
-			</tr>
+			<?php
+				if(isset($product->display)){
+					?>
+					
+					<tr>
+						<td>Display</td><td><?=$product->display." inch"?></td>
+					</tr>
+					<?php
+				}
+			?>
+			<?php
+				if(isset($product->camera)){
+					?>
+					
+					<tr>
+						<td>Camera</td><td><?=$product->camera." MP"?></td>
+					</tr>
+					<?php
+				}
+			?>
+			<?php
+				if(isset($product->storage)){
+					?>
+					<tr>
+					<td>Storage</td><td><?=$product->storage."GB"?></td>
+					</tr>
+					<?php
+				}
+			?>
+			<?php
+				if(isset($product->processor)){
+					?>
+					<tr>
+						<td>Processor</td><td><?=$product->processor?></td>
+					</tr>
+					<?php
+				}
+			?>
+			<?php
+				if(isset($product->battery)){
+					?>
+					<tr>
+					<?php
+							if($product->type=="phone"){?>
+								<td>Battery</td><td><?=$product->battery." mah"?></td>
+							<?php
+							}else{
+								?>
+								<td>Battery</td><td><?=$product->battery." Wh"?></td>
+								<?php
+							}
+					?>
+					
+						
+					</tr>
+					<?php
+				}
+			?>
 			<tr>
 				<td>Year</td><td><?=$product->year?></td>
 			</tr>
@@ -24,7 +73,7 @@
 				<td>Description</td><td><?="<pre>".$product->description."</pre>"?></td>
 			</tr>
 			<tr>
-				<td>Price</td><td><?=number_format((float)$product->price)?></td>
+				<td>Price</td><td>₱<?=number_format((float)$product->price)?></td>
 			</tr>
 
 

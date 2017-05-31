@@ -20,20 +20,20 @@ Your cart <br>
 		echo "<tr>";
 		$currentProduct = $this->product_model->get_products($productID);
 		echo "<td>".$currentProduct->productName."</td>";
-		echo "<td>".number_format((float)$currentProduct->price)."</td>";
+		echo "<td>₱".number_format((float)$currentProduct->price)."</td>";
 		?>
 		<td><input id="quantity" type="number" name="quantity<?=$productID?>" value="<?=$productQuantity?>" min="1" onchange="update_cart(<?=$productID?>,this.value)"></td>
 		<?php
 
 		$price = $productQuantity*$currentProduct->price;
-		echo "<td>".number_format($price)."</td>";
+		echo "<td>₱".number_format($price)."</td>";
 		?>
 		<td><input type="button" value="Remove Item" id="<?=$productID?>" onclick="remove_item(this.id)"></td></tr>
 		<?php
 		$total+= $price;
 	}
 	?>
-	<tr><td><td><td>total</td><td><?php echo number_format($total)?></td></td></td></tr>
+	<tr><td><td><td>total</td><td>₱<?php echo number_format($total)?></td></td></td></tr>
 </table>
 
 

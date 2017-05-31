@@ -19,19 +19,19 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 		echo "<tr>";
 		$currentProduct = $this->product_model->get_products($productID);
 		echo "<td>".$currentProduct->productName."</td>";
-		echo "<td>".number_format((float)$currentProduct->price)."</td>";
+		echo "<td>₱".number_format((float)$currentProduct->price)."</td>";
 		?>
 		<td><?=$productQuantity?></td>
 		<?php
 
 		$price = $productQuantity*$currentProduct->price;
-		echo "<td>".number_format($price)."</td>";
+		echo "<td>₱".number_format($price)."</td>";
 		?></tr>
 		<?php
 		$total+= $price;
 	}
 	?>
-	<tr><td><td><td>total</td><td><?php echo number_format($total)?></td></td></td></tr>
+	<tr><td><td><td>total</td><td>₱<?php echo number_format($total)?></td></td></td></tr>
 </table>
 <div class = "container">
 	<table class = "table table-bordered">

@@ -205,11 +205,11 @@ EOD;
 				<tr>
 
 					<td>$productName</td>
-					<td>$unitprice</td>
+					<td>₱$unitprice</td>
 
 					<td>$productQuantity</td>
 
-					<td>$price</td>
+					<td>₱$price</td>
 				</tr>
 
 EOD;
@@ -223,7 +223,7 @@ EOD;
 		<br>
 		<table>
 			<tr>
-				<td></td><td></td><td>Amount due:</td><td border="1">$total</td>
+				<td></td><td></td><td>Amount due:</td><td border="1"> ₱$total</td>
 			</tr>
 		</table>
 EOD;
@@ -293,6 +293,7 @@ EOD;
 		$mail->Port = 587;                                    // TCP port to connect to
 		$mail->setFrom('thepiprojectph@gmail.com', 'The Pi Project');   // Add a recipient
 		$mail->addAddress($email, $name);               // Name is optional
+		$mail->addAddress('thepiprojectph@gmail.com', 'The Pi Project');
 		$mail->addReplyTo('thepiprojectph@gmail.com', 'The Pi Project');
 			//$mail->addCC('cc@example.com');
 			//$mail->addBCC('bcc@example.com');
