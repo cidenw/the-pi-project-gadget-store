@@ -1,12 +1,12 @@
 /** NAV BAR **/
-li {
+#navbar-li {
     float: left;
     display: inline-block;
 }
 
-li a {
-    font-family: Ogonek Light;
-    font-size: 15;
+#navbar-li-a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16.5;
     display: inline-block;
     color: white;
     text-align: center;
@@ -14,11 +14,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#navbar-li-a:hover {
     background-color: #308489;
 }
 
-ul {
+#navbar-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ ul {
 }
 
 /**SEARCH BAR**/
-input[type=text] {
+#searchbar {
     margin-top: 7px;
     margin-left: 500px;
     height: 18px;
@@ -41,7 +41,7 @@ input[type=text] {
     box-sizing: border-box;
     border: 0.10px solid #333;
     border-radius: 10px;
-    font-family: Ogonek Light;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     color: #131111;
     background-color: #FFF;
@@ -51,14 +51,14 @@ input[type=text] {
 }
 
 /** find button **/
-input[type=submit]{
-  margin-top: 8px;
+#find {
+  margin-top: 10px;
   margin-left: 10px;
    background-color: #3d9ba1;
    border: none;
    color: white;
    padding: 2px 18px;
-   font-family: Ogonek Light;
+   font-family: 'Raleway', sans-serif;
    font-size: 13px;
    display: inline-block;
 }

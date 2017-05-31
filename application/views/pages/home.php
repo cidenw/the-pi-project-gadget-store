@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 /** MENU ICON **/
@@ -113,7 +114,7 @@ z-index: -1;
   padding: 0;
   color: white;
   text-align: center;
-  font-family: Ogonek Light;
+  font-family: 'Raleway', sans-serif;
 }
 
 #overlay ul li {
