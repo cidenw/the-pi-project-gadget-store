@@ -5,6 +5,7 @@ p,h1,h2,h3{
   font-family: 'Raleway', sans-serif;
 }
 
+/** search bar in braches **/
 #SupportSB {
     height: 45px;
     width: 300px;
@@ -18,6 +19,7 @@ p,h1,h2,h3{
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
+    margin: 0 auto;
 }
 
 
@@ -31,7 +33,7 @@ p,h1,h2,h3{
     cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
-    width: 262.5px;
+    width:  /** 262.5px; **/ 25%;
     font-family: 'Raleway', sans-serif;
     height: 160px;
     text-align: center;
@@ -42,13 +44,12 @@ p,h1,h2,h3{
     background-color: #e1dfdf;
 }
 
-/* Style the tab content */
 .tabcontent {
     color: black;
     display: none;
-    /**padding: 10px; **/
-    width: 1050px;
-    height: 800px;
+    margin: auto 0;
+    width: /** 1050px; **/ 100%;
+    height: 900px;
 }
 
 #a,#b,#c,#d {
@@ -57,7 +58,7 @@ p,h1,h2,h3{
 
 .tab_header{
     text-align: center;
-    margin-left: 10%;
+    margin: 0 auto;
 }
 
 /** BRANCHES **/
@@ -66,14 +67,15 @@ p,h1,h2,h3{
     /* Remove default list styling */
     list-style-type: none;
     font-family: 'Raleway', sans-serif;
-    width: 400px;
-    float: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#branches li a {
+#branches-li-a {
     text-decoration: none; /* Remove default text underline */
     font-size: 18px; /* Increase the font-size */
     color: black;
+    text-align: center;
 }
 
 /** FAQS **/
@@ -126,14 +128,12 @@ p,h1,h2,h3{
 
 <center>
 
-<!--
 <br><br>
-<p style="font-size: 50px">How can we help you? </p>
-</p>
-<br><br><br>
--->
-<br><br>
+
 <div class="tab_header">
+
+<!-- FIRST CONTENT ---------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------------------------- -->
 
 <div id="a" class="tabcontent">
   <h1 style="font-size: 45px"><br>What are your questions about us?</h1>
@@ -201,16 +201,16 @@ p,h1,h2,h3{
     from your original order will not be refunded, unless the merchandise is determined by Samsung <br>
     Direct, in its sole discretion, to be defective. </p>
   </div>
-
-
-
 </div>
+
+<!-- SECOND CONTENT ---------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------------------------- -->
 
 <div id="b" class="tabcontent">
 <br>
   <h1 style="font-size: 45px">What do you need help with?</h1>
   <br>
-  <h1 style="font-size: 30px; color: blue">
+  <h1 style="font-size: 30px; color: #308489">
   Email us your concerns or schedule a service!</h1>
 
   <form action="/action_page.php">
@@ -234,6 +234,9 @@ p,h1,h2,h3{
   </p> 
 </div>
 
+<!-- THIRD CONTENT -------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------- -->
+
 <div id="c" class="tabcontent">
   <br>
   <h1 style="font-size: 45px">How would you like to contact us?</h1>
@@ -256,30 +259,34 @@ p,h1,h2,h3{
   </p>
 </div>
 
+<!-- FOURTH CONTENT------------------------------------------------------------------------- -->
+<!-- ---------------------------------------------------------------------------------------- -->
 <div id="d" class="tabcontent">
   <h1 style="font-size: 45px">How would you find Us?</h1>
   <br>
   <input type="text" name="search" placeholder="Type your City/Province" id="SupportSB" onkeyup="searchBranch()" />
   <br><br>
     <h1 style="font-size: 30px; color: blue"> BRANCHES </h1>
-  <center>
+  
+  
   <ul id="branches">
-  <li><a href="#">Greenbelt 5, Makati City</a></li>
-  <li><a href="#">Glorietta 4, Makati City</a></li>
-  <li><a href="#">SM Mall Of Asia, Pasay City</a></li>
-  <li><a href="#">SM Megamall, Mandaluyong City</a></li>
-  <li><a href="#">SM North EDSA, Quezon City</a></li>
-  <li><a href="#">Trinoma, Quezon City</a></li>
-  <li><a href="#">UPTC, Quezon City</a></li>
-  <li><a href="#">SM Fairview, Quezon City</a></li>
-  <li><a href="#">SM Southmall, Las Pinas City</a></li>
-  <li><a href="#">Alabang Town Center, Muntinlupa City</a></li>
-  <li><a href="#">Molito, Muntinlupa City</a></li>
-  <li><a href="#">Bonifacio High Street, Taguig City</a></li>
-  <li><a href="#">SM Aura, Taguig City</a></li>
-  </center>
-
+  <li id="branches-li"><a id="branches-li-a" href="#">Greenbelt 5, Makati City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">Glorietta 4, Makati City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">SM Mall Of Asia, Pasay City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">SM Megamall, Mandaluyong City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">SM North EDSA, Quezon City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">Trinoma, Quezon City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">UPTC, Quezon City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">SM Fairview, Quezon City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">SM Southmall, Las Pinas City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">Alabang Town Center, Muntinlupa City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">Molito, Muntinlupa City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">Bonifacio High Street, Taguig City</a></li>
+  <li id="branches-li"><a id="branches-li-a" href="#">SM Aura, Taguig City</a></li>
   </ul>
+
+
+
 
   <h1 style="font-size: 30px; color: blue">STORE HOURS</h1>
   <p style="font-size: 20px" >
@@ -292,6 +299,7 @@ p,h1,h2,h3{
   <a href="https://twitter.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> @thepiproject</a>
   </p>
 </div>
+
 
 <button class="tablink" onclick="openOpt('a', this)" id="defaultOpen" >
   <h3>Frequently Asked Questions!</h3>
