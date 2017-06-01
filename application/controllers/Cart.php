@@ -31,16 +31,25 @@ class Cart extends CI_Controller{
 
 		$this->load->library('session');
 		$cart = $this->session->userdata('cart');
+		$toInsert = (String)$data['product']['productID'];
+		print_r($cart);
 		if(empty($cart)){
 			$cart = array();
 		}
-		array_push($cart, (String)$data['product']['productID']);
-		$cart = array_count_values($cart);
-		$data['added'] = true;
+		if(!isset($cart[''.$toInsert])){
+			$cart[''.$toInsert] = 1;
+		}else{
+			$cart[''.$toInsert] = (Integer)$cart[''.$toInsert]+1;
+		}
+		
+		
 		$this->session->set_userdata('cart', $cart);
+		/*
 		$this->load->view('templates/header');
 		$this->load->view('products/view', $data);
 		$this->load->view('templates/footer');
+		*/
+		header('Location:'.base_url().'products/view/'.$toInsert.'?added=true');
 	}
 
 	public function update(){

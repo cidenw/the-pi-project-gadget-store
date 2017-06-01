@@ -242,7 +242,7 @@
 </center>
 
 <?php
-if(isset($added)){
+if(isset($_GET['added'])){
 	echo "You added " .$product->productName. " to your cart."; 
 	echo "<br><br><br>";
 	?>

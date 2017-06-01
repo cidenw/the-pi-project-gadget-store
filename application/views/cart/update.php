@@ -8,7 +8,9 @@ if(empty($cart)){
 	return;
 }
 ?>
-
+<?php
+print_r($cart);
+?>
 
 Your cart <br> 
 <table border="1">
@@ -50,6 +52,7 @@ if(!empty($cart)){
 if(isset($_GET['id'])){
 	$productID = $_GET['id'];
 	if(isset($_GET['quantity'])){
+		$cart = $this->session->userdata('cart');
 		$quantity = $_GET['quantity'];
 		$quantity = round($quantity);
 		$cart[$productID] = $quantity;
