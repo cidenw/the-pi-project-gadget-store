@@ -7,11 +7,19 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 ?>
 <div id="display_cart">
 
-
 </div>
-<?=$title?> <br> 
+
+
+
+<?=$title?> <br>
+
 <table border="1">
-	<tr><th>Product Name</th><th>Unit Price</th><th>Quantity</th><th>Price</th>		</tr>
+	<tr>
+	   <th>Product Name</th>
+	   <th>Unit Price</th>
+	   <th>Quantity</th>
+	   <th>Price</th>		
+	</tr>
 
 	<?php
 	$total = 0;
@@ -31,8 +39,17 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 		$total+= $price;
 	}
 	?>
-	<tr><td><td><td>total</td><td>₱<?php echo number_format($total)?></td></td></td></tr>
+	<tr>
+	 <td>
+	  <td>
+	  <td>total</td>
+	  <td>₱<?php echo number_format($total)?></td>
+	  </td>
+	 </td>
+	 </tr>
 </table>
+
+
 <?php
 if($this->session->userdata('is_LoggedIn')){
 	?>
