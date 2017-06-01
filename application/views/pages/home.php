@@ -161,7 +161,7 @@ z-index: -1;
   <div>
       <ul>
         <li><a href="<?php echo base_url(); ?>about">About</a></li>
-        <li><a href="<?php echo base_url(); ?>products">Product</a></li>
+        <li><a href="<?php echo base_url(); ?>products">Products</a></li>
         <li><a href="<?php echo base_url(); ?>support">Support</a></li>
          <li><a href="<?php echo base_url(); ?>cart">Cart</a></li>
          <?php

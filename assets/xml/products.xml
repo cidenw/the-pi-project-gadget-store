@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <productList xmlns="http://www.example.org/prod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/prod prod.xsd ">
 	<product productID="1">
 		<type>phone</type>
@@ -11,11 +11,14 @@
 		<processor>1.2GHz Qualcomm Snapdragon 410</processor>
 		<camera>13</camera>
 		<battery>3000</battery>
-		<year>0</year>
+		<year>2016</year>
 		<description>
-5.5-inch HD TFT display @ 720 x 1280 px, 267ppi
-1.2GHz Qualcomm Snapdragon 410 processor Adreno 306
-1.5GB RAM + 8GB ROM internal storage, Expandable via microSD, up to 256GB
+5.5-inch HD TFT display @ 720 x 1280 px,
+267ppi
+1.2GHz Qualcomm Snapdragon 410 processor
+Adreno 3067
+1.5GB RAM + 8GB ROM internal storage, 
+Expandable via microSD, up to 256GB
 13MP f/2.1 AF rear camera with LED Flash
 5MP f/2.2 front camera
 4G LTE Cat.4, Dual SIM, Dual Standby
@@ -34,17 +37,20 @@ Android 5.1.1 Lollipop
 		<processor>64-bit Intel Atom Z3590 Quad Core Processor</processor>
 		<camera>13</camera>
 		<battery>3000</battery>
-		<year>0</year>
+		<year>2015</year>
 		<description>
-Operating System: Android™ 5.0(With ASUS ZenUI)
-Processor: 64-bit Intel Atom Z3590 Quad Core Processor (Running at 2.5GHz)
-Display: 5.5-inch, Full HD 1920x1080/403 PPI,295ppi IPS
+Operating System: Android™ 5.0(ASUS ZenUI)
+Processor: 64-bit Intel Atom Z3590 
+Quad Core Processor (Running at 2.5GHz)
+Display: 5.5-inch, Full HD 1920x1080/403
+PPI,295ppi IPS
 Internal Storage: 128GB eMCP Flash
 Micro SD: MicroSD card (up to 128 GB)
 Memory: 4GB LPDDR3 RAM
 Battery: 3000 mAh Li-Polymer (non-removable)
 SIM Cards: Micro-SIM
-Network Standard: Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot, Bluetooth v4.0
+Network Standard: Wi-Fi 802.11 a/b/g/n/ac, 
+Wi-Fi Direct, hotspot, Bluetooth v4.0
 Rear Camera: 13 Mega-Pixel
 Front Camera: 5 Mega-Pixel
 	</description>
@@ -52,7 +58,7 @@ Front Camera: 5 Mega-Pixel
 	<product productID="3">
 		<type>laptop</type>
 		<brand>Lenovo</brand>
-		<productName>Lenovo IdeaPad 110-14IBR 14" Intel Celeron N3160 Quad Core 4GBBlack Windows 10  </productName>
+		<productName>Lenovo IdeaPad 110-14IBR 14" Win 10  </productName>
 		<price>14490</price>
 		<display>14</display>
 		<memory>4</memory>
@@ -63,7 +69,8 @@ Front Camera: 5 Mega-Pixel
 		<year>2016</year>
 		<description>
 Operating System: Windows 10
-Processor: Intel Celeron N3160 Processor 1.6GHz (2M Cache, up to 2.24GHz)
+Processor: Intel Celeron N3160
+Processor 1.6GHz
 Quad Core
 Display: 14" HD
 Memory: 4GB DDR3
@@ -89,15 +96,20 @@ Wifi: AC WIFI
 		<battery>5000</battery>
 		<year>2016</year>
 		<description>
-Android OS, v5.0.1 (Lollipop), upgradable to v6.0.1 (Marshmallow)
+Android OS, v5.0.1 (Lollipop), upgradable
+to v6.0.1 (Marshmallow)
 CPU Quad-core 1.2 GHz Cortex-A53
 Protection: Corning Gorilla Glass 4
-Touch: 10-finger capacitive Touch Screen with Anti-fingerprint technology
+Touch: 10-finger capacitive Touch 
+Screen with Anti-fingerprint technology
 RAM: 2G LPDDR3
 Storage: 32G EMMC
-Asus Web Storage: 5 GB storage lifetime for free
-Camera-Front: 5MP, f/2.0 Aperture, wide angle 85 degree Pano Selfie
-Camera-Rear:13 MP, f/2.0 Aperture, l5 elements lens, autofocus, dual-LED (dual tone) flash
+Asus Web Storage: 5 GB storage lifetime
+for free
+Camera-Front: 5MP, f/2.0 Aperture, wide
+angle 85 degree Pano Selfie
+Camera-Rear:13 MP, f/2.0 Aperture, l5 
+elements lens, autofocus, dual-LED flash
 		</description>
 	</product>
 	<product productID="5">
