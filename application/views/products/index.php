@@ -8,7 +8,7 @@
       display: inline-block;
   }
   .products-grid{
-    height: 380px;
+    height: 339px;
     overflow: auto;
     margin: 0 0 0 0;
     padding: 0;
@@ -32,7 +32,7 @@
     width: 328px;
     height: 328px;
     display: inline-block;
-    margin: 20px;
+    margin: 5px;
 }
 
 .products-box{
@@ -40,16 +40,15 @@
     height: 100%;
     position: relative;
     cursor: pointer;
-    border-radius: 10px;
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    opacity: 0.75;
-
+    opacity: 0.7;
 }
 
 .products-box:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+    opacity: 1;
 } 
 
 .products-img-1 {
@@ -79,6 +78,34 @@
     color: #fff;
 }
 
+.textBox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  transition: .5s;
+  transform: translateX(0%) translateY(0%);
+}
+.textBox h3{
+  font-family: 'Century Gothic';
+  margin: 0;
+  padding: 0;
+  top: 10%;
+  transform: translate(0%,248px);
+}
+
+.textBox h4{
+  margin: 0;
+  padding: 0;
+  top: 10%;
+  transform: translate(0%,248px);
+  font-size: 14px;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
 li a {
     font-family: 'Century Gothic';
 }
@@ -87,6 +114,10 @@ li a:hover{
     background: transparent;
 }
 
+select{
+  margin: 10px;
+  font-family: 'Century Gothic';
+}
 </style>
 
 <h2><?= $title ?></h2>
@@ -117,12 +148,15 @@ if(!empty($products)){
           <li>
              <div class = "products-box products-img-1 ">
                  <a href="<?php echo site_url("/products/".$product['productID']); ?>">
-                    <h3><?php echo $product -> productName?></h3>	
                     <img src="<?php echo base_url()."assets/images/products/".$product['productID'].".jpg" ?>" class = "products-box products-img-1"/>
                 </a>
+                  <div class = "textBox">
+                     <h3><?php echo $product -> productName?> <br></h3>
+                     <h4>PHP<?php     echo $product -> price ;?></h4>
+                  </div>
                 <br>
                 <?php
-			//}
+      //}
                 ?>
             </div>
         </li>
