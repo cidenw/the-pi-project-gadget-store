@@ -15,8 +15,10 @@
   <li id="navbar-li"><a id="navbar-li-a" href="<?php echo base_url(); ?>products">Products</a></li>
   <li id="navbar-li"><a id="navbar-li-a" href="<?php echo base_url(); ?>support">Support</a></li>
 
-  <li id="navbar-li"><input type="text" name="search" placeholder="Search.." id="searchbar"></li>
+  <li id="navbar-li"><input type="text" name="search" placeholder="Search.." id="searchbar"  onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('find').click()"></li>
   <li id="navbar-li"><input type="submit" value="Find" id="find" onclick=" window.location = '<?=base_url()?>products?search=' + document.getElementById('searchbar').value"></li>
+
   <li id="navbar-li" style="float:right"><a id="navbar-li-a" href="<?php echo base_url(); ?>cart"><img class="cart" src="<?php echo base_url(); ?>assets/images/cart.png" height="32px"></a></li>
     <?php
   if($this->session->userdata('is_LoggedIn')){
