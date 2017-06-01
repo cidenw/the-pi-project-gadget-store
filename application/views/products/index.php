@@ -43,12 +43,12 @@
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .products-box:hover {
     transform: scale(1.15);
-    opacity: 1;
+    opacity: 0.8;
 } 
 
 .products-img-1 {
@@ -58,7 +58,7 @@
 
 .products-img-1:hover{
     transition: all 0.3s ease-in;
-    opacity: 1;
+    opacity: 1.1;
 }
 
 .products-info h3{
@@ -82,26 +82,29 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 45%;
+  height: 40%;
   font-family: 'Raleway', sans-serif;
-  transition: .5s;
-  transform: translateX(0%) translateY(0%);
+  float: left;
 }
 .textBox h3{
   font-family: 'Century Gothic';
+  color: #000;
   margin: 0;
   padding: 0;
   top: 10%;
   transform: translate(0%,248px);
+  transition-duration: 0s;
 }
 
 .textBox h4{
   margin: 0;
+  color: #3366cc;
   padding: 0;
   top: 10%;
   transform: translate(0%,248px);
   font-size: 14px;
+  transition-duration: 0s;
 }
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -149,16 +152,17 @@ if(!empty($products)){
              <div class = "products-box products-img-1 ">
                  <a href="<?php echo site_url("/products/".$product['productID']); ?>">
                     <img src="<?php echo base_url()."assets/images/products/".$product['productID'].".jpg" ?>" class = "products-box products-img-1"/>
-                </a>
-                  <div class = "textBox">
+                 </div>
+                 <div class = "textBox">
                      <h3><?php echo $product -> productName?> <br></h3>
                      <h4>PHP<?php     echo $product -> price ;?></h4>
-                  </div>
+                 </div>
+                </a>
+                 
                 <br>
                 <?php
       //}
                 ?>
-            </div>
         </li>
     </div>
 </ul>
