@@ -379,10 +379,28 @@ function searchBranch() {
 function showOrHide(aString) {
     var x = document.getElementById(aString);
     if (x.style.display === 'none') {
-        x.style.display = 'block';
+        
+       var answers1 = document.getElementById('answers1');
+       var answers2 = document.getElementById('answers2');
+       var answers3 = document.getElementById('answers3');
+       var answers4 = document.getElementById('answers4');
+       var answers5 = document.getElementById('answers5');
+       var answers6 = document.getElementById('answers6');
+       answers1.style.display = 'none';
+       answers2.style.display = 'none';
+       answers3.style.display = 'none';
+       answers4.style.display = 'none';
+       answers5.style.display = 'none';
+       answers6.style.display = 'none';
+       x.style.display = 'block';
+
+
+      
     } else {
         x.style.display = 'none';
     }
+
+
 }
 </script>
 
