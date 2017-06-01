@@ -96,9 +96,9 @@ p,h1,h2,h3{
    background-color: #3d9ba1;
    border: none;
    color: white;
-   padding: 6px 24px;
+   padding: 8px 24px;
    font-family: 'Raleway', sans-serif;
-   font-size: 13px;
+   font-size: 18px;
    display: inline-block;
 }
 

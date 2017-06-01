@@ -1,119 +1,127 @@
 <style type="text/css">
 	
-	h1,h2,h3,h4,h5,table,pre {
+	h1,h2,h3,h4,h5,table,pre,#caption,.button {
 		font-family: 'Raleway', sans-serif;
 	}
+    
+    .product-image{
+    	margin-left: 100px;
+    }
+	/** TABLE #1 **/
 	
-	table{
+	#prod-table{
 		border-collapse: collapse;
 		border: none;
-		/** height: 10px; **/
 	}
-
+    
+    #top-tr {
+    	background-color: #308489; 
+    }
     tr{
     	border: none;
         border-bottom: 1px solid #ddd;
-        background-color: #f6f6f6;
+        background-color: #efefef;
+    }
+    
+    tr:hover {
+      background-color: #e4e4e4;
     }
 
 	td{
 		text-align: left;
-		padding: 15px;
+		padding-left: 30px;
+		padding-top: 10px;
+		padding-right: 20px;
 		border: none;
 		font-size: 13px;
-	
 	}
 
-	tr:hover {
-      background-color: #eee;
-    }
-
-    #prod-buy{
-    	background-color: #489a9f;
-    	
-    }
+    #prod-table{
+      box-shadow: 8px 8px 4px #c7c7c7; 
+    } 
+    
+    /** PRODUCT IMAGE **/
 
     #the-prod {
-       border-radius: 50%;
+       box-shadow: 8px 8px 8px #c7c7c7; 
+       /** border-radius: 10%; **/
     }
 
+    /** PRODUCT IMAGE ANIMATION ZOOM **/
 
-/** PRODUCT IMAGE ANIMATION ZOOM **/
+    #the-prod:hover {
+	   opacity: 0.9;
+    }
 
-#the-prod:hover {
-	opacity: 0.8;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    /* overflow: auto; */ /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
 
 /* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 40%;
-    max-width: 700px;
-}
+    .modal-content {
+     margin: auto;
+     display: block;
+     width: 40%;
+     max-width: 700px;
+    }
 
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
+   /* Caption of Modal Image */
+   #caption {
+     margin: auto;
+     display: block;
+     width: 80%;
+     max-width: 700px;
+     text-align: center;
+     color: #ccc;
+     padding: 10px 0;
+     height: 150px;
+    }
 
 /* Add Animation */
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
+   .modal-content, #caption {    
+     -webkit-animation-name: zoom;
+     -webkit-animation-duration: 0.6s;
+     animation-name: zoom;
+     animation-duration: 0.6s;
+    }
 
-@-webkit-keyframes zoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-}
+   @-webkit-keyframes zoom {
+     from {-webkit-transform: scale(0)} 
+     to {-webkit-transform: scale(1)}
+    }
 
-@keyframes zoom {
-    from {transform: scale(0.1)} 
-    to {transform: scale(1)}
-}
+   @keyframes zoom {
+     from {transform: scale(0.1)} 
+     to {transform: scale(1)}
+    }
 
 /* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
+   .close {
+     position: absolute;
+     top: 15px;
+     right: 35px;
+     color: #f1f1f1;
+     font-size: 40px;
+     font-weight: bold;
+     transition: 0.3s;
+    }
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
+.close:hover,.close:focus {
+     color: #bbb;
+     text-decoration: none;
+     cursor: pointer; 
+    }
 
 /* 100% Image Width on Smaller Screens  */
 @media only screen and (max-width: 700px){
@@ -121,37 +129,103 @@
         width: 100%;
     }
 }
+/** ADD TO CART BUTTON **/
+.button {
+    background-color: #308489;
+    border: none;
+    color: white;
+    padding: 11px 23px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1.25px solid #333333;
+}
+
+.remarks{
+	background-color: #efefef;
+}
+
+#remarks{
+		border-collapse: collapse;
+		border: none;
+		box-shadow: 8px 8px 4px #c7c7c7; 
+}
+
+#remarks-tr{
+    background-color: #efefef;
+    border: none;
+}
+
+#remarks-td{
+text-align: left;
+		padding-left: 30px;
+		padding-top: 10px;
+		padding-right: 20px;
+		border: none;
+		font-size: 13px;
+}
 
 </style>
-
-<center>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
   <span class="close">×</span>
   <img class="modal-content" id="img01">
-  <div id="caption"></div>
+  <div id="caption">  </div>
 </div>
 
 
-<br><br>
-<h2 style="font-size: 47px"> <?php echo $product->productName?> </h2> 
-<br>
-<div class="post-body">
-	<img src="<?php echo base_url()."assets/images/products/".$product['productID'].".jpg" ?>" height="600px" id="the-prod" />
+<br><br><br>
 
-	<br><br><br><br>
-	<div>
-		<table border="1">
-		    <tr id="prod-buy">
-		       <td><h3> BUY THIS PRODUCT! </h3> </td>
-               <!-- <td style="float: right;"><a href="<?php echo base_url()."cart/add/".$product['productID']?>" > <img src="<?php echo base_url(); ?>assets/images/cart-b.png" height="55px"/></a></td> -->
+<center>
+<div class="product-image">
+   <div class="sectionA" style="float: left;">
+         <h2 style="font-size: 20px"> <?php echo $product->productName?> </h2>
+         <img src="<?php echo base_url()."assets/images/products/".$product['productID'].".jpg" ?>" height="400px" id="the-prod" alt="<?php echo $product->productName?>" />
+    </div>
+    <div class="section B" style="float: left; margin-left: 30px; margin-top: 50px">
+		 <table id="prod-table">
+		  <tbody>
+		    <tr id="top-tr">
+		       <td> </td>
+               <td style="float: right;"> <a href="<?php echo base_url()."cart/add/".$product['productID']?>" class="btn btn-info btn-lg"> <input type="button" class="button" value="Add to cart"> </a></td>
+               <!-- <td style="float: right;"> <img src="<?php echo base_url(); ?>assets/images/cart-b.png" height="40px"/> </a></td> -->
 		    </tr>
 			<tr>
-				<td id="prod-head"><h3>Name</h3></td>
+				<td><h3>Name</h3></td>
 				<td><h4><?=$product->productName?></h4></td>
 			</tr>
+			<?php
+				if(isset($product->brand)){
+					?>
+					
+					<tr>
+						<td><h3>Brand</h3></td>
+						<td><h4><?=$product->brand?></h4></td>
+					</tr>
+					<?php
+				}
+			?>
 
+			<tr>
+				<td><h3>Price</h3></td>
+				<td><h4>₱ <?=number_format((float)$product->price)?></h4></td>
+			</tr>
+			<tr>
+				<td><h3>Year</h3></td>
+				<td><h4><?=$product->year?></h4></td>
+			</tr>
+		   </tbody>
+         </table>
+    </div>
+
+    <div class="sectionC" style="float: left ;margin-left: 30px; margin-top: 50px;">
+       <table id="prod-table" >
+         <tbody>
 			<?php
 				if(isset($product->display)){
 					?>
@@ -217,49 +291,44 @@
 				}
 			?>
 			<tr>
-				<td id="prod-head"><h3>Year</h3></td>
-				<td><h4><?=$product->year?></h4></td>
-			</tr>
-			<tr>
 				<td id="prod-head"><h3>Description</h3></td>
 				<td><h4><?="<pre>".$product->description."</pre>"?></h4></td>
-			</tr>
-			<tr>
-				<td id="prod-head"><h3>Price</h3></td>
-				<td><h4>₱<?=number_format((float)$product->price)?></h4></td>
-			</tr>
+			</tr> 
+			</tbody>
 		</table>
-	</div>
+    </div>
+</div>
+</center>
+ 
+     
 
-
+   <!--
 	<p>
 		<a href="<?php echo base_url()."cart/add/".$product['productID']?>" class="btn btn-info btn-lg">
 			<span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
 		</a> 
-    </p>  
+    </p>  -->
 
-</div>
-</center>
+  
+  <br><br><br>
+  <div style="position: fixed; bottom: 0px; opacity: 0.6; background: #efefef; left: 30px; padding-left: 20px; padding-right: 20px">
+    <?php
+    if(isset($_GET['added'])){
 
-<?php
-if(isset($_GET['added'])){
-	echo "You added " .$product->productName. " to your cart."; 
-	echo "<br><br><br>";
+	echo "<h3>You added <br>" .$product->productName. " <br> to your cart.</h3>"; 
 	?>
 	<a href="<?php echo base_url()."products"?>" class="btn btn-info btn-lg">
-			<span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
+		<h3> Continue Shopping </h3>
 		</a><br>
-	<?php
 	
-	
-}
-
-?>
+	<?php	
+     }
+    ?>
+    </div>
 
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('the-prod');
 var modalImg = document.getElementById("img01");
@@ -269,7 +338,6 @@ img.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
@@ -278,3 +346,4 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 </script>
+

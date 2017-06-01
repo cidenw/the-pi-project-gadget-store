@@ -150,7 +150,7 @@ z-index: -1;
 
 </style>
 <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo3.png" class="logo"></a>
-<a href="<?php echo base_url(); ?>products"><img class="search" src="<?php echo base_url(); ?>assets/images/search.png"></a>
+<a href="<?php echo base_url(); ?>products"><img class="search" src="<?php echo base_url(); ?>assets/images/search.png" /></a> 
    <div id="nav-icon">
       <span></span>
       <span></span>
@@ -168,6 +168,8 @@ z-index: -1;
   </div>
 </div>
 
+
+
  <div class="w3-content w3-section" style="max-width:500px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/1.gif" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/2.png" style="width:100%; max-height:720px">
@@ -178,7 +180,7 @@ z-index: -1;
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/g.jpg" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/h.jpg" style="width:100%; max-height:720px">
   <img class="slideshow" src="<?php echo base_url(); ?>assets/images/i.jpg" style="width:100%; max-height:720px">
-
+   <!--
    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
@@ -189,7 +191,7 @@ z-index: -1;
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>
-   </div>
+   </div> -->
  </div> 
 
 
@@ -201,15 +203,15 @@ carousel();
 
 function carousel() {
     var x = document.getElementsByClassName("slideshow");
-    var dots = document.getElementsByClassName("demo");
+   //var dots = document.getElementsByClassName("demo");
 
     for (var i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
-
+    /*
     for (var i = 0; i < dots.length; i++) {
        dots[i].className = dots[i].className.replace(" w3-white", "");
-    }
+    } */
     
     myIndex++;
 
@@ -219,8 +221,8 @@ function carousel() {
 
 
     x[myIndex-1].style.display = "block";  
-    dots[myIndex-1].className += " w3-white";
-    setTimeout(carousel, 4000); // Change image every 4 seconds
+    //dots[myIndex-1].className += " w3-white";
+    setTimeout(carousel, 3000); // Change image every 4 seconds
 }
 
 $(document).ready(function(){
