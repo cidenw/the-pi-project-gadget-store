@@ -5,73 +5,80 @@ $philippine_cities = array("Alaminos City","Angeles City","Antipolo City","Bacol
 $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindanao","Central Luzon", "Caraga", "Central Visayas", "Eastern Visayas", "Ilocos Region", "National Capital Region", "Northern Mindanao", "Southern Mindanao", "Western Mindanao", "Western Visayas");
 		
 ?>
-<div id="display_cart">
-
-
-</div>
-<?=$title?> <br> 
-<table border="1">
-	<tr><th>Product Name</th><th>Unit Price</th><th>Quantity</th><th>Price</th>		</tr>
-
-	<?php
-	$total = 0;
-	foreach($cart as $productID=>$productQuantity){
-		echo "<tr>";
-		$currentProduct = $this->product_model->get_products($productID);
-		echo "<td>".$currentProduct->productName."</td>";
-		echo "<td>₱".number_format((float)$currentProduct->price)."</td>";
-		?>
-		<td><?=$productQuantity?></td>
-		<?php
-
-		$price = $productQuantity*$currentProduct->price;
-		echo "<td>₱".number_format($price)."</td>";
-		?></tr>
-		<?php
-		$total+= $price;
-	}
-	?>
-	<tr><td><td><td>total</td><td>₱<?php echo number_format($total)?></td></td></td></tr>
-</table>
 <?php
-if($this->session->userdata('is_LoggedIn')){
-	?>
+	if(isset($_POST['email'])){
+		$this->account_model->updateCart($_POST);
+			
+	}
+	if(isset($_GET['msg'])){
+		echo $_GET['msg'];
+	}
+	$profile = $this->session->userdata('profile');
+?>
 
-	<a href="<?=base_url().'cart/confirm_order'?>">Confirm Order</a>
-	<?php
-}else{
-	?>
-	<div class = "container">
+<div class = "container">
 	<table class = "table table-bordered">
 		<tbody>
-			<form action="<?=base_url().'cart/confirm_order'?>" method="post" enctype="multipart/form-data">
+			<form action="" method="post" enctype="multipart/form-data">
 				<tr>
 					<td> First Name </td>
-					<td> <input type="text" name="firstName" class="form-control flat" required /> </td>
+					<td> <input type="text" name="firstName" class="form-control flat" value="<?=$profile['firstName']?>" readonly /> </td>
 				</tr>
 				<tr>
 					<td> Last Name </td>
-					<td> <input type="text" name="lastName" class = "form-control flat" required /> </td>
+					<td> <input type="text" name="lastName" class = "form-control flat" value="<?=$profile['lastName']?>" readonly /> </td>
 				</tr>
 				<tr>
 					<td> Email </td>
-					<td> <input type="email" name="email" class = "form-control flat" required /> </td>
+					<td> <input type="email" name="email" class = "form-control flat" value="<?=$profile['email']?>" readonly /> </td>
 				</tr>
 				<tr>
+					<td> Password </td>
+					<td> <input type="password" name="password" class = "form-control flat" id= "pwd" required /><button type="button" id="eye">
+    <img src="https://cdn0.iconfinder.com/data/icons/feather/96/eye-16.png" alt="eye" />
+</button> </td>
+				</tr>
+				<script type="text/javascript">
+	function show() {
+    var p = document.getElementById('pwd');
+    p.setAttribute('type', 'text');
+}
+
+function hide() {
+    var p = document.getElementById('pwd');
+    p.setAttribute('type', 'password');
+}
+
+var pwShown = 0;
+
+document.getElementById("eye").addEventListener("click", function () {
+    if (pwShown == 0) {
+        pwShown = 1;
+        show();
+    } else {
+        pwShown = 0;
+        hide();
+    }
+}, false);
+</script>
+				<tr>
 					<td> Contact number </td>
-					<td> <input type="tel" name="contact" class = "form-control flat" required /> </td>
+					<td> <input type="tel" name="contact" class = "form-control flat" value="<?=$profile['contact']?>" required /> </td>
 				</tr>
 				<tr>
 					<td> Address </td>
-					<td> <input type="text" name="address" class = "form-control flat" required > </td>
+					<td> <input type="text" name="address" class = "form-control flat" value="<?=$profile['address']?>" required > </td>
 				</tr>
 				<tr>
 					<td> City </td>
 					<td> 
+
 						<select name = "city" required>
 						<?php
-							foreach($philippine_cities as $city){
-								echo "<option value='".$city."'>".$city."</option>";
+							foreach($philippine_cities as $id=>$city){
+								?>
+								<option <?php if($id==array_search($profile['city'],$philippine_cities)) echo "selected"?> value="<?=$city?>" ><?=$city?> </option> 
+								<?php
 							}
 						?>
 						</select>
@@ -81,24 +88,20 @@ if($this->session->userdata('is_LoggedIn')){
 				<tr>
 					<td> Region </td>
 					<td>
-						<select name="region" required>
+						<select name="region" value="<?=array_search($profile['region'],$provinces)?>" required>
 						<?php
-							foreach($provinces as $province){
-								echo "<option value='".$province."'>".$province."</option>";
+							foreach($provinces as $id=>$province){
+								?>
+								<option <?php if($id==array_search($profile['region'], $provinces)) echo "selected"?> value="<?=$province?>" ><?=$province?> </option> 
+								<?php
 							}
-						?>				
+						?>		
 						</select>
 					</td>
 				</tr>
-				<td colspan = "2" align="center"><button type = "submit" name = "insert" class = "btn btn-inverse">Confirm Order</button></td>
+				<td colspan = "2" align="center"><button type = "submit" name = "insert" class = "btn btn-inverse">Update</button></td>
 
 			</form>
 		</tbody>
 	</table>
 </div>
-
-	<?php
-}
-?>
-
-	

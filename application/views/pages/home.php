@@ -164,6 +164,17 @@ z-index: -1;
         <li><a href="<?php echo base_url(); ?>products">Product</a></li>
         <li><a href="<?php echo base_url(); ?>support">Support</a></li>
          <li><a href="<?php echo base_url(); ?>cart">Cart</a></li>
+         <?php
+         if($this->session->userdata('is_LoggedIn')){
+          ?>
+            <li><a href="<?php echo base_url(); ?>account">My Account</a></li>
+          <?php
+         }else{
+          ?>
+            <li><a href="<?php echo base_url(); ?>account/signin">Sign In</a></li>
+          <?php
+         }
+         ?>
       </ul>
   </div>
 </div>

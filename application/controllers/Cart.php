@@ -32,7 +32,7 @@ class Cart extends CI_Controller{
 		$this->load->library('session');
 		$cart = $this->session->userdata('cart');
 		$toInsert = (String)$data['product']['productID'];
-		print_r($cart);
+		//print_r($cart);
 		if(empty($cart)){
 			$cart = array();
 		}
@@ -44,11 +44,10 @@ class Cart extends CI_Controller{
 		
 		
 		$this->session->set_userdata('cart', $cart);
-		/*
-		$this->load->view('templates/header');
-		$this->load->view('products/view', $data);
-		$this->load->view('templates/footer');
-		*/
+		if($this->session->userdata('is_LoggedIn')){
+			$this->account_model->updateCart();
+		}
+
 		header('Location:'.base_url().'products/view/'.$toInsert.'?added=true');
 	}
 
@@ -62,7 +61,12 @@ class Cart extends CI_Controller{
 		if(empty($data['cart'])){
 			$data['cart'] = array();
 		}
+		if($this->session->userdata('is_LoggedIn')){
+			$this->account_model->updateCart();
+		}
+		
 		$this->load->view('cart/update',$data);
+
 	}
 	public function checkout(){
 
@@ -145,13 +149,25 @@ class Cart extends CI_Controller{
 		$pdf->setTextShadow(array('enabled'=>true, 'depth_w'=>0.2, 'depth_h'=>0.2, 'color'=>array(196,196,196), 'opacity'=>1, 'blend_mode'=>'Normal'));
 
 // Set some content to print
-		$name = $_POST['firstName']." ".$_POST['lastName'];
-		$email = $_POST['email'];
-		$contact = $_POST['contact'];
-		$address = $_POST['address'];
-		$city = $_POST['city'];
-		$region = $_POST['region'];
-		$data['email'] = $email;
+		if($this->session->userdata('is_LoggedIn')){
+			$profile = $this->session->userdata('profile');
+			$name = $profile['firstName']." ".$profile['lastName'];
+			$email = $profile['email'];
+			$contact = $profile['contact'];
+			$address = $profile['address'];
+			$city = $profile['city'];
+			$region = $profile['region'];
+			$data['email'] = $email;
+		}else{
+			$name = $_POST['firstName']." ".$_POST['lastName'];
+			$email = $_POST['email'];
+			$contact = $_POST['contact'];
+			$address = $_POST['address'];
+			$city = $_POST['city'];
+			$region = $_POST['region'];
+			$data['email'] = $email; //to be pass on next page
+		}
+		
 		$date = getdate()['month']." ".getdate()['mday'].", ".getdate()['year']." - ".date("h:i:sa"); 
 		$total = 0;
 		foreach($data['cart'] as $productID=>$productQuantity){
@@ -322,11 +338,16 @@ EOD;
 			$data['isSent'] = true;
 			$cart = array();
 			$this->session->set_userdata('cart', $cart);
-			//echo 'Message has been sent';
+			$this->account_model->updateCart();
+			$msg = 'Message has been sent';
 		}
 		
+		header('Location:'.base_url().'cart/success?email='.$email.'&isSent='.$data['isSent']);
+	}
+
+	public function success(){
 		$this->load->view('templates/header');
-		$this->load->view('cart/success', $data);
+		$this->load->view('cart/success');
 		$this->load->view('templates/footer');
 	}
 }
