@@ -10,7 +10,13 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
+  width:100%
+  padding:0;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  z-index: 2;
+  position: relative;
 }
+
 
 .topnav a {
   font-family: 'Raleway', sans-serif;
@@ -21,6 +27,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
+  z-index: 1;
 }
 
 .topnav a:hover {
@@ -31,7 +38,26 @@
 .topnav .icon {
   display: none;
 }
-
+.top-nav-scrolled, .header {
+position: fixed;
+  top:0;
+  width:100%;
+}
+.header {
+  z-index: 1;
+  position: fixed;
+  background-color: #FFFFFF;
+  width:100%;
+}
+.header-hide{
+  display: none;
+}
+body {
+  padding-top: 80px;
+  margin: 0;
+  background-color: #FFFFFF;
+  position:relative;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -55,9 +81,13 @@
 
 }
   </style>
+
 	</head>
 	<body>
-<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo4.png" id="logo" height="13%"></a>
+  <div class = "header">
+  <a href="<?php echo base_url(); ?>support" id="logo"><img src="<?php echo base_url(); ?>assets/images/logo4.png" id="logo" height="90px"></img></a>
+  </div>
+
 <br>
 
 
@@ -86,6 +116,21 @@
   <a style="float: right;"><input type="text" name="search" placeholder="Search.." id="searchbar"  onkeydown = "if (event.keyCode == 13) document.getElementById('find').click()"></a>
 </nav>
 </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+    var nv = $(".topnav");
+    var hdr = $(".header");
+    $(window).scroll(function(){
+      if($(this).scrollTop()> 76){
+        nv.addClass("top-nav-scrolled");
+        hdr.addClass("header-hide");
+      }else{
+        nv.removeClass("top-nav-scrolled");
+        hdr.removeClass("header-hide");
+      }
+    });
+
+</script>
 
 
 

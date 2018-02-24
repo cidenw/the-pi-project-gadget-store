@@ -1,29 +1,22 @@
-.DS_Store
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-application/cache/*
-!application/cache/index.html
-!application/cache/.htaccess
-assets/xml/users.xml
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+# Dump file
+*.stackdump
 
-composer.lock
+# Folder config file
+[Dd]esktop.ini
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
+# Windows shortcuts
+*.lnk

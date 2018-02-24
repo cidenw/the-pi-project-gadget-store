@@ -152,7 +152,7 @@ if(isset($_GET['sent'])){
   
   <h3 style="font-size: 20px;"> Ordering Online </h3>
 
-  <h3 style="font-size: 20px; color: blue">How do I place an order? &nbsp; &nbsp;
+  <h3 style="font-size: 20px; color: #308489">How do I place an order? &nbsp; &nbsp;
   <img id="faqs" src="<?php echo base_url(); ?>assets/images/arrow.png" onclick="showOrHide('answers1')"/> </h3>
   <div id="answers1" style="display: none;">
   <p style="font-size: 17px">
@@ -164,14 +164,14 @@ if(isset($_GET['sent'])){
     Checkout steps. You will receive an email confirming your order.</p>
   </div>
 
-  <h3 style="font-size: 20px; color: blue">What should I do if I'm having trouble placing an order? &nbsp; &nbsp;
+  <h3 style="font-size: 20px; color: #308489">What should I do if I'm having trouble placing an order? &nbsp; &nbsp;
   <img id="faqs" src="<?php echo base_url(); ?>assets/images/arrow.png" onclick="showOrHide('answers2')"/> </h3>
   <div id="answers2" style="display: none;">
   <p style="font-size: 17px">
     For any technical difficulties you are experiencing with your website, please call us <br> toll-free at 855-726-8721, seven days a week, 9 a.m.-9 p.m. EST, or email us.</p>
   </div>
 
-  <h3 style="font-size: 20px; color: blue">How do I pay for my order? &nbsp; &nbsp;
+  <h3 style="font-size: 20px; color: #308489">How do I pay for my order? &nbsp; &nbsp;
   <img id="faqs" src="<?php echo base_url(); ?>assets/images/arrow.png" onclick="showOrHide('answers3')"/> </h3>
   <div id="answers3" style="display: none;">
   <p style="font-size: 17px">
@@ -182,7 +182,7 @@ if(isset($_GET['sent'])){
   
   <h3 style="font-size: 20px;"> Product Assistance</h3>
 
-  <h3 style="font-size: 20px; color: blue">How do I find a product online that I saw in a store? &nbsp; &nbsp;
+  <h3 style="font-size: 20px; color: #308489">How do I find a product online that I saw in a store? &nbsp; &nbsp;
   <img id="faqs" src="<?php echo base_url(); ?>assets/images/arrow.png" onclick="showOrHide('answers4')"/> </h3>
   <div id="answers4" style="display: none;">
   <p style="font-size: 17px">
@@ -190,7 +190,7 @@ if(isset($_GET['sent'])){
     our Search feature to look for an item by keyword or item number. </p>
   </div>
 
-  <h3 style="font-size: 20px; color: blue">How often are new products added to the online stores? &nbsp; &nbsp;
+  <h3 style="font-size: 20px; color: #308489">How often are new products added to the online stores? &nbsp; &nbsp;
   <img id="faqs" src="<?php echo base_url(); ?>assets/images/arrow.png" onclick="showOrHide('answers5')"/> </h3>
   <div id="answers5" style="display: none;">
   <p style="font-size: 17px">
@@ -200,7 +200,7 @@ if(isset($_GET['sent'])){
 
   <h3 style="font-size: 20px;">Product Returns</h3>
 
-  <h3 style="font-size: 20px; color: blue">What is your return policy? &nbsp; &nbsp;
+  <h3 style="font-size: 20px; color: #308489">What is your return policy? &nbsp; &nbsp;
   <img id="faqs" src="<?php echo base_url(); ?>assets/images/arrow.png" onclick="showOrHide('answers6')"/> </h3>
   <div id="answers6" style="display: none;">
   <p style="font-size: 17px">
@@ -242,8 +242,8 @@ if(isset($_GET['sent'])){
   <br>
   <h3 style="font-size: 20px;">Message us! </h3>
   <p>
-  <a href="https://wwww.facebook.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/fb.png" height="26px">  tppsupport</a> <br>
-  <a href="https://twitter.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> tppsupport</a>
+  <a href="https://wwww.facebook.com/aristimialmoro" style="color: #308489"><img src="<?php echo base_url(); ?>assets/images/fb.png" height="26px">  tppsupport</a> <br>
+  <a href="https://twitter.com/aristimialmoro" style="color: #308489"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> tppsupport</a>
   </p> 
 </div>
 
@@ -254,7 +254,7 @@ if(isset($_GET['sent'])){
   <br>
   <h1 style="font-size: 45px">How would you like to contact us?</h1>
   <br><br>
-  <h1 style="font-size: 30px; color: blue">
+  <h1 style="font-size: 30px; color: #308489">
   1-800-31415</h1>
   <p style="font-size: 20px">
     (1-800-726-7864) <br>
@@ -264,11 +264,11 @@ if(isset($_GET['sent'])){
 
   <p style="font-size: 15px">24 hour support available for mobile devices</p>
 
-  <h1 style="color: blue">Social Support</h1>
+  <h1 style="color: #308489">Social Support</h1>
   <p>Contact us on Twitter or Facebook and we'll reply <br>
   with an answer to your question or issue.<br><br>
-  <a href="https://wwww.facebook.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/fb.png" height="26px">  tppsupport</a> <br>
-  <a href="https://twitter.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> tppsupport</a>
+  <a href="https://wwww.facebook.com/aristimialmoro" style="color: #308489"><img src="<?php echo base_url(); ?>assets/images/fb.png" height="26px">  tppsupport</a> <br>
+  <a href="https://twitter.com/aristimialmoro" style="color: #308489"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> tppsupport</a>
   </p>
 </div>
 
@@ -279,7 +279,7 @@ if(isset($_GET['sent'])){
   <br>
   <input type="text" name="search" placeholder="Type your City/Province" id="SupportSB" onkeyup="searchBranch()" />
   <br><br>
-    <h1 style="font-size: 30px; color: blue"> BRANCHES </h1>
+    <h1 style="font-size: 30px; color: #308489"> BRANCHES </h1>
   
   
   <ul id="branches">
@@ -301,15 +301,15 @@ if(isset($_GET['sent'])){
 
 
 
-  <h1 style="font-size: 30px; color: blue">STORE HOURS</h1>
+  <h1 style="font-size: 30px; color: #308489">STORE HOURS</h1>
   <p style="font-size: 20px" >
     MON - FRI : 9AM - 10 PM (EST)<br>
     SAT - SUN : 9AM - 11 PM (EST)
   </p>
 
   <p>Like us on facebook or twitter.<br><br>
-  <a href="https://wwww.facebook.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/fb.png" height="26px">  @thepiproject</a> <br>
-  <a href="https://twitter.com/aristimialmoro"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> @thepiproject</a>
+  <a href="https://wwww.facebook.com/aristimialmoro" style="color: #308489"><img src="<?php echo base_url(); ?>assets/images/fb.png" height="26px">  @thepiproject</a> <br>
+  <a href="https://twitter.com/aristimialmoro" style="color: #308489"><img src="<?php echo base_url(); ?>assets/images/tw.png" height="30px"> @thepiproject</a>
   </p>
 </div>
 

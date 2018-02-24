@@ -402,7 +402,7 @@ Colour: White Pearl
 		<type>phone</type>
 		<brand>Samsung</brand>
 		<productName>Samsung Galaxy Note Edge 32GB</productName>
-		<price>39,099</price>
+		<price>39099</price>
 		<display>5.6</display>
 		<memory>3</memory>
 		<storage>32</storage>
@@ -410,7 +410,7 @@ Colour: White Pearl
 		<camera>16</camera>
 		<battery>3000</battery>
 		<year>2014</year>
-		<description>tns:description</description>
+		<description>Super Edge technology by Waleed</description>
 	</product>
 	<product productID="18">
 		<type>phone</type>
@@ -464,7 +464,7 @@ FDD-LTE Bands 1, 2, 3, 4, 5, 7, 8, 12, 20, 29, 30, 38, 39, 40, and 41
 		<productName>Samsung Galaxy S6 Egde</productName>
 		<price>23299</price>
 		<display>5.1</display>
-		<memory>3/tns:memory></memory>
+		<memory>3</memory>
 		<storage>32</storage>
 		<processor>Octa-core (4x2.1 GHz Cortex-A57 &amp; 4x1.5 GHz Cortex-A53)</processor>
 		<camera>12</camera>
@@ -574,7 +574,7 @@ Battery: Non-removable Li-Po 1960 mAh battery
         </description>
 	</product>
 	<product productID="25">
-		<type>Apple Inc.</type>
+		<type>phone</type>
 		<brand>Apple</brand>
 		<productName>Apple iPhone 7 Plus 2256GB Jet Black</productName>
 		<price>49999</price>
@@ -1531,7 +1531,7 @@ Connectivity options: 802.11b/g/n, Bluetooth, LAN
 		<display>14</display>
 		<memory>4</memory>
 		<storage>500</storage>
-		<processor>tns:processor</processor>
+		<processor>I7-5500U</processor>
 		<year>2015</year>
 		<description>
 i5 5200U

@@ -296,7 +296,7 @@ EOD;
 		
 
 		
-		require 'application\libraries\PHPMailerAutoload.php';
+		require '/home/woccidental/public_html/tpp/application/libraries/PHPMailerAutoload.php';
 
 		$mail = new PHPMailer;
 
@@ -313,7 +313,7 @@ EOD;
 		)
 		);
 		$mail->Username = 'thepiprojectph@gmail.com';                 // SMTP username
-		$mail->Password = 'tpppassword';                           // SMTP password
+		$mail->Password = '';                           // SMTP password
 		$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 		$mail->Port = 587;                                    // TCP port to connect to
 		$mail->setFrom('thepiprojectph@gmail.com', 'The Pi Project');   // Add a recipient

@@ -61,6 +61,9 @@
     opacity: 1.1;
 }
 
+
+
+
 .products-info h3{
   text-align: left;
   font-family: 'Century Gothic';
@@ -99,13 +102,21 @@
 
 .textBox h4{
   margin: 0;
-  color: #3366cc;
+  color: #FFFFFF;
   padding: 0;
   top: 10%;
   transform: translate(0%,248px);
   font-size: 14px;
   transition-duration: 0s;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(48,132,137,0.5); 
 }
+
+.sort{
+  margin-left: 100px;
+}
+
 h2 {
   font-family: 'Raleway', sans-serif;
 }
@@ -123,10 +134,11 @@ select{
 }
 </style>
 
-<h2><?= $title ?></h2>
+<div class="sort">
 <?php
 if(!empty($products)){
     ?>
+    <h2 style="font-weight: bold"><b><?= $title ?></b></h2>
     <select onchange="if (this.value) window.location.href=this.value">
         
         <option value="<?php echo base_url()."products" ?>">Pick one:</option>
@@ -137,9 +149,13 @@ if(!empty($products)){
         <option value="<?php echo base_url()."products?orderby=name"; if(isset($search)){echo "&search=".$search;}   ?>"  <?php if($orderby=="name") echo "selected"?> >Sort by Product Name</option>
     </select>
     <?php
+}else{
+  ?>
+  <h2>No results.</h2>
+  <?php
 }
 ?>
-
+</div>
 
 <br><br>
 
@@ -154,8 +170,15 @@ if(!empty($products)){
                     <img src="<?php echo base_url()."assets/images/products/".$product['productID'].".jpg" ?>" class = "products-box products-img-1"/>
                  </div>
                  <div class = "textBox">
-                     <h3><?php echo $product -> productName?> <br></h3>
-                     <h4>PHP<?php     echo $product -> price ;?></h4>
+                     <h3><?php 
+                     if(strlen($product -> productName)>28){
+                      echo substr($product -> productName,0,28)."...";
+                     }else{
+                      echo $product -> productName;
+                     }
+                     
+                     ?> <br></h3>
+                     <h4><b>₱ <?php     echo number_format((float)$product -> price) ;?></b></h4>
                  </div>
                 </a>
                  

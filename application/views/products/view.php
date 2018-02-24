@@ -57,7 +57,7 @@
     .modal {
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
+      z-index: 2; /* Sit on top */
       padding-top: 100px; /* Location of the box */
       left: 0;
       top: 0;
@@ -345,5 +345,10 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
 }
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+        modal.style.display = "none";
+    }
+});
 </script>
 

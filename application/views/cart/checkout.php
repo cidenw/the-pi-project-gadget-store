@@ -152,7 +152,7 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 if($this->session->userdata('is_LoggedIn')){
 	?>
 
-	<a href="<?=base_url().'cart/confirm_order'?>">Confirm Order</a>
+	<button value= "Confirm Order" onclick="window.location ='<?=base_url().'cart/confirm_order'?>'">Confirm Order</button>
 	<?php
 }else{
 	?>

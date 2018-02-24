@@ -170,9 +170,11 @@ $provinces = array("ARMM"," Bicol Region","CAR","Cagayan Valley","Central Mindan
 		</tbody>
 	</table>
 </div>
+<style>
 
+</style>
 <?php
 if(isset($_GET['msg'])){
-	echo $_GET['msg'];
+	echo "<h1 style='font-size: 30px;'>".$_GET['msg']."</h1>";
 }
 ?>

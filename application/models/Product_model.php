@@ -1,7 +1,7 @@
 <?php
 	class Product_model extends CI_Model{
 		public function get_products($productID = NULL, $orderby = NULL, $search = NULL){
-			$xml=simplexml_load_file(base_url()."assets/xml/products.xml");
+			$xml=simplexml_load_file("/home/woccidental/public_html/tpp/assets/xml/products.xml");
 			if($productID == NULL){
 				$products = $xml->children();
 				if($orderby == NULL){
@@ -36,7 +36,7 @@
 					 }
 
 					 function compare_category($a, $b) {
-						 return strnatcmp($a->category, $b->category);
+						 return strnatcmp($a->type, $b->type);
 					 }
 
 					 function compare_price_desc($a, $b) {

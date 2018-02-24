@@ -1,7 +1,7 @@
 <?php
 class Support extends CI_Controller{
 	public function sendEmail(){
-		require 'application\libraries\PHPMailerAutoload.php';
+		require '/home/woccidental/public_html/tpp/application/libraries/PHPMailerAutoload.php';
 		$name = $_POST['firstname']." ".$_POST['lastname'];
 		$mail = new PHPMailer;
 

@@ -182,15 +182,15 @@ z-index: -1;
 
 
  <div class="w3-content w3-section" style="max-width:500px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/1.gif" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/2.png" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/c.jpg" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/d.jpg" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/e.jpg" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/f.jpg" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/g.jpg" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/h.jpg" style="width:100%; max-height:720px">
-  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/i.jpg" style="width:100%; max-height:720px">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/1.gif" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/2.png" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/c.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/d.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/e.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/f.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/g.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/h.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
+  <img class="slideshow" src="<?php echo base_url(); ?>assets/images/i.jpg" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;">
    <!--
    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" ></span>

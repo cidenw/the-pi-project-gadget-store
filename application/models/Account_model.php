@@ -2,7 +2,7 @@
 	class Account_model extends CI_Model{
 		public function verify_password($email, $password){
 			$usersColl = new DOMDocument();
-			$path = base_url()."assets/xml/users.xml";
+			$path = "/home/woccidental/public_html/tpp/assets/xml/users.xml";
 			$usersColl->load($path);
 			$UserInfo = array();
 			$userInfos = array();
@@ -90,7 +90,7 @@
 			$data = $this->session->userdata('profile');
 			$cart = $this->session->userdata('cart');
 			$usersColl = new DOMDocument();
-			$path = base_url()."assets/xml/users.xml";
+			$path = "/home/woccidental/public_html/tpp/assets/xml/users.xml";
 			$usersColl->load($path);
 			$UserInfo = array();
 			$userInfos = array();
@@ -164,7 +164,7 @@
 			}
 			
 			$root->appendChild($newUser);
-			$usersColl->save($_SERVER['DOCUMENT_ROOT']."/tpp/assets/xml/users.xml");
+			$usersColl->save("/home/woccidental/public_html/tpp/assets/xml/users.xml");
 			if(isset($header)){
 				header('Location:'.base_url().$header);
 			}
@@ -172,7 +172,7 @@
 
 		public function register($data){
 			$usersColl = new DOMDocument();
-			$path = base_url()."assets/xml/users.xml";
+			$path = "/home/woccidental/public_html/tpp/assets/xml/users.xml";
 			$usersColl->load($path);
 			$UserInfo = array();
 			$userInfos = array();
@@ -223,7 +223,10 @@
 			foreach($userInfos as $user){
 				if($user['email']==$email){
 					$msg = "Email already taken.";
+					echo $user['email']."1<br>";
+					echo $email."2<br>";
 					header('Location:'.base_url().'account/register?msg='.$msg);
+					return;
 				}
 			}
 
@@ -249,7 +252,7 @@
 			$newUser->appendChild($userPassword);
 
 			$root->appendChild($newUser);
-			$usersColl->save($_SERVER['DOCUMENT_ROOT']."/tpp/assets/xml/users.xml");
+			$usersColl->save("/home/woccidental/public_html/tpp/assets/xml/users.xml");
 			$msg = "Sign up successful.<br>Sign in with your newly created account";
 			header('Location:'.base_url().'account/signin?msg='.$msg);
 		}
